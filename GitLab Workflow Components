@@ -1,0 +1,40 @@
+Gitlab uses terminology for its components that is a bit different from other systems you may have used. Here is a table showing each of the main GitLab components and what their functionality is known as in other systems you may have previously used.
+
+Project
+
+The core building block where work is organized, managed, tracked and delivered to help the team to collaborate and plan work in the form of issues.
+
+Repository Group
+
+A collection of projects and/or other groups. They are like folders.
+
+Project Issue
+
+An issue is part of a project. It is the fundamental planning object where the team documents the use case in the description, discusses the approach, estimates the size/effort (issue weight), tracks actual time/effort, assigns work, and tracks progress.
+
+Story, Narrative, Ticket Epic
+
+A collection of related issues across different groups and projects to help organize by theme Initiatives, Themes.
+
+Merge Request
+
+The linkage between the issue and the actual code changes. Captures the design, implementation details (code changes), discussions (code reviews), approvals, testing (CI Pipeline), and security scans.
+
+Pull Request
+
+Label Used to tag and track work for a project or group and associate issues with different initiatives
+
+Tag Board
+
+A visual listing of projects and issues useful for teams to manage their backlog of work, prioritize items, and move issues to the team or specific stage in the project.
+
+
+
+Milestone
+
+A sprint or deliverable(s), helping you organize code, issues, and merge requests into a cohesive group
+
+Release Roadmap
+
+A visual representation of the various epics for the group
+
