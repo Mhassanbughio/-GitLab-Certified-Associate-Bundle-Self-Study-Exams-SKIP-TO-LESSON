@@ -180,3 +180,12 @@ Reporting bugs
 At GitLab our best practice is to always start a discussion with an issue.
 
 CONTINUE
+Single Source of Truth
+
+When you create an issue in GitLab, you can view multiple DevOps Lifecycle Stage properties, such as the related epics, merge requests, milestone dates, boards, roadmaps, labels, and more- it's all connected!
+
+In the image below, you can see how Issues relate to almost every other GitLab component and how Issues help tie everything together. 
+
+At GitLab, everyone can contribute! 
+
+One of the best ways to get yourself familiar with the GitLab platform is to take a look at how we use GitLab! You can view how we build and utilize GitLab for yourself at https://gitlab.com/gitlab-org/gitlab you will need to be logged into GitLab.com to view the GitLab.org project. 
