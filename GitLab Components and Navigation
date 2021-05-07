@@ -166,3 +166,17 @@ Get Help
 If you didn't find what you were looking for, search the docs.
 If you want help with something specific and could use community support, post on the GitLab forum.
 For problems setting up or using this feature (depending on your GitLab subscription).
+The Starting Point for Your GitLab WorkFlow 
+
+
+Issues are the basic building blocks of planning development work and are used to collaborate on ideas and planning work in GitLab. 
+
+You should create a new issue whenever you are developing a new feature to be implemented in one of your applications. You can also create issues for:
+
+Discussing the implementation of a new idea
+Managing an incident
+Asking questions 
+Reporting bugs
+At GitLab our best practice is to always start a discussion with an issue.
+
+CONTINUE
