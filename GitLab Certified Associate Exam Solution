@@ -1,4 +1,4 @@
-Which GitLab branching option deals with minor versions?    
+Q1 Which GitLab branching option deals with minor versions?    
 
 1 Environment Branches
 
@@ -7,3 +7,20 @@ Which GitLab branching option deals with minor versions?
 3 None of the Above
 Corect Answer Environment Branches
 
+Q2 What GitLab component refers to a collection of projects?
+
+A group 
+
+An epic
+
+A page 
+Correct Answer A group
+
+Q3 What GitLab component may be known as a pull request?
+
+A commit
+
+An issue
+
+A merge request
+Correct Answer A merge Request 
