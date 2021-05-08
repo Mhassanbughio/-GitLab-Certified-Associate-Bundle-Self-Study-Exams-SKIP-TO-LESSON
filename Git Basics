@@ -105,4 +105,9 @@ It's less bureaucratic- you can create branches, commits, and merges without acc
 
 COLLABORATION
 
+More collaborative:
+
+You can have several remote repositories
+
+Allows you collaborate with different developers without changing the official repository (using forks for example)
 
