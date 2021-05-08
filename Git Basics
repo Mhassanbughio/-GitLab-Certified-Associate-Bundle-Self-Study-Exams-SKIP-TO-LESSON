@@ -74,6 +74,11 @@ Staging Area
 
 Modified/Added files that are marked to go into the next commit
 
+Local Repo
+
+Local copy of the upstream repo
+Remote/Upstream Repo
+Hosted repository on a shared server (GitLab)
 
 
 
