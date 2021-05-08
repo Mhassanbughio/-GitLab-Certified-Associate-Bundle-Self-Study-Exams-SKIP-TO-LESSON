@@ -80,7 +80,24 @@ Local copy of the upstream repo
 Remote/Upstream Repo
 Hosted repository on a shared server (GitLab)
 
+Centralized vs. Distributed
+
+Let's take a look at the various advantages of using a distributed VCS over a centralized VCS.
+
+Centralized vs. Distributed
+
+Let's take a look at the various advantages of using a distributed VCS over a centralized VCS.
+
+DATA LOSS
 
 
+It is safer for data loss:
+
+Each developer has a clone from the repo
+Even a CI server has a trustable source of backup
+
+SPEED
+
+COLLABORATION
 
 
