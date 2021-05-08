@@ -63,8 +63,12 @@ Git Basics
 Terms Used When Working with Git Locally
 
 Untracked Files
+
 New files that Git has not been told to track previously
 
+Working Area
+
+Files that have been modified but not committed
 
 
 
