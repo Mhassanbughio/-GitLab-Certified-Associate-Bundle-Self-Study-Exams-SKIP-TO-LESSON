@@ -97,6 +97,11 @@ Each developer has a clone from the repo
 Even a CI server has a trustable source of backup
 
 SPEED
+It is faster:
+
+Most of the operations doesn’t require network
+
+It's less bureaucratic- you can create branches, commits, and merges without accessing the remote repository
 
 COLLABORATION
 
