@@ -35,6 +35,21 @@ Tag
 
 Mark a specific point in time on a branch.
 
+Checkout
+
+
+Get a specific branch to start making your changes.
+
+Commit
+
+
+Add changes you've made to the repository.
+
+
+Push
+
+
+Send changes to a remote directory. 
 
 
 
