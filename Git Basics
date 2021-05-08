@@ -2,3 +2,28 @@ What does the industry say about Git?
 
 "Git is amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development" - Scott Chacon and 
 Ben Straub; authors of Pro Git
+
+
+What is Git?
+
+Git is a free and open source distributed version control system(VCS) designed to handle everything from small to large projects with speed and efficiency. 
+GitLab is a Git-based fully integrated platform for software development.
+
+Characteristics of Git
+
+
+
+1 Distributed- Does not require a constant connection to a central server. 
+
+
+2 Adaptive- Git's branching model can adapt to fit the workflow of almost any team. 
+
+
+3 Fast & Reliable- Git branches are sparse, allowing for change-only tracking. 
+
+4 Flexible- Git can be command line or GUI driven, allowing everyone to contribute easily. 
+
+#########################Git Term Definitions############################################# 
+
+There are several terms that are used when learning how Git. Click on each card to learn how the term is defined. 
+
