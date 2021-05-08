@@ -1,0 +1,39 @@
+LAB 1: CREATE A PROJECT AND ISSUE
+Create a project
+Navigate to Groups > Your groups in the top navigation bar.
+Expand the arrow to the left of Training Users. Expand the arrow to the left of the Session entry for your class. Click on the entry for My Test Group that includes your username (hint: the group with the Owner tag is yours).
+Click the blue New project button. Click Create blank project.
+In the Project name field, enter Top Level Project. Optionally, include a few notes in the Project description box.
+Under Visibility Level, click the radio button for Private.
+Click the Initialize repository with a README checkbox. If you don't initialize your repository with a README, you will create a “bare” Git repository that you will need to add content to in order to bring into existence.
+Click the green Create project button.
+Create an issue
+On the left-hand side of the screen, click the Issues section on the taskbar. You might need to click the double right-arrow icon at the bottom of the taskbar to make the section names visible.
+Click the blue New issue button.
+In the Title field, type my first issue. Optionally, enter a comment in the Description field.
+In the Assignees field, click the Assign to me link.
+Leave all other fields at their defaults and click Submit issue.
+Create custom labels
+On the left-hand side of the screen, click the Labels section (under the Issues header) on the taskbar.
+Click the blue New label button.
+In the Title field, type Opened and assign it a background color of your choosing.
+Click the blue Create label button. Note: this label has been created at the project level, so it is specific to that project. It will not be available at the group level.
+Using the same steps, create labels for Completed and Needs documentation, using label colors of your choice.
+
+You should now have 3 labels created under the Labels section of the taskbar.
+
+Utilize a quick action
+On the left-hand side of the screen, click the Issues section on the taskbar.
+Click on my first issue to open it.
+Below the comment field, click the quick actions link.
+Review the various quick actions you can complete by using the comment field in an issue.
+Navigate back to the GitLab page for my first issue.
+In the text editor field in the comment section, type /spend 1 h
+Click the green Comment button.
+Notice that in the right-hand pane, the time tracking widget reflects your last action.
+Assign labels to an issue
+Find the Labels section in the right-hand pane of the my first issue page. Click Edit in that section.
+Click on the Opened and Needs documentation labels you created earlier.
+Click away from the Labels section, and notice that the issue has both labels applied to it.
+Suggestions?
+If you wish to make a change to the Hands On Guide for GitLab with Git Basics, please submit your changes via Merge Request!
