@@ -70,6 +70,9 @@ Working Area
 
 Files that have been modified but not committed
 
+Staging Area
+
+Modified/Added files that are marked to go into the next commit
 
 
 
