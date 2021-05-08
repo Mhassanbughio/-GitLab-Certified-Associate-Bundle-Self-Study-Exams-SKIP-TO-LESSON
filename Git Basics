@@ -52,4 +52,10 @@ Push
 Send changes to a remote directory. 
 
 
+Workspace
+
+Directory where you store the repository on your computer.
+
+
+
 
