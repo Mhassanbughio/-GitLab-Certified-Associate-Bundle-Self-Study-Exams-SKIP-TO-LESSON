@@ -55,4 +55,7 @@ Work on a branch
 Type git checkout -b temporary_branch
 Type git branch -a to see all branches.
 
+Note: the red branches are on the remote server (GitLab.com).
+
+
 
