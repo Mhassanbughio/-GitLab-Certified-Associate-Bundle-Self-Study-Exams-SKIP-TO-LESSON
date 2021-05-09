@@ -62,5 +62,6 @@ Note: the red branches are on the remote server (GitLab.com).
 Make a change to a README file
 
 In your terminal/command window, navigate to the directory that contains the README.md file.
+Using the editor of your choice, add a new line a second line added to master branch locally at the end of README.md. Save the file.
 
 
