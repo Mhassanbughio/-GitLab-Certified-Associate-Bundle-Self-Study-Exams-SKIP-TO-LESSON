@@ -25,3 +25,6 @@ Type cat id_ed25519.pub or cat id_rsa.pub (depending on which kind of key you ge
 Return to the GitLab app in your browser. Paste the public key contents into the Key field, enter any title you want in the Title field, and click Add key.
 Your local computer is now authenticated to push and pull (interact) with GitLab.
 
+##########################################################################################################################################
+
+Copy (clone) a project repo to your local machine
