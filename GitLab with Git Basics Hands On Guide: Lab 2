@@ -12,3 +12,7 @@ You will be prompted to select the location in which your key will be saved. Pre
 You may be prompted to create a passphrase. Leave it blank or enter a passphrase of your choice, and then hit Enter. 
 If you do use a passphrase, you'll have to enter it every time you push or pull code from GitLab.com.
 
+ ##################  2nd Step ###########################################
+
+Add an SSH Key to Your GitLab profile
+In the top right-hand corner of the the GitLab app, locate your user avatar and click the down arrow.
