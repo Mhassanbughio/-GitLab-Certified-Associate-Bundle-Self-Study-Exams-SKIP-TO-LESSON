@@ -52,5 +52,6 @@ Type git status. You will see a message saying your working tree is clean.
 
 Work on a branch
 
+Type git checkout -b temporary_branch
 
 
