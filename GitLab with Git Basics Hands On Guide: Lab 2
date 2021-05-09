@@ -42,4 +42,5 @@ Note: The following git commands are summarized in GitLab's helpfl git cheat she
 
 In your terminal/command window, type cd to get out of the .ssh directory and into your home directory.
 Type mkdir training to create a new directory.
+Type cd training to move into your new directory.
 
