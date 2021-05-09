@@ -1,3 +1,6 @@
 #####################################################LAB 2: WORKING WITH GIT LOCALLY ############################################################################
 Verify git is installed locally
 Open a terminal session or command prompt and type git version. If it prints a version number, git is installed.
+
+
+Generate an SSH key
