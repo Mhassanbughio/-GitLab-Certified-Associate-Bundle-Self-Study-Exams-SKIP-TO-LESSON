@@ -18,4 +18,5 @@ Add an SSH Key to Your GitLab profile
 In the top right-hand corner of the the GitLab app, locate your user avatar and click the down arrow.
 From the dropdown menu, click the Edit profile item.
 On the left-hand side of the screen, click on SSH Keys.
+If you have no SSH keys added to your profile, you will land on the Add an SSH Key screen.
 
