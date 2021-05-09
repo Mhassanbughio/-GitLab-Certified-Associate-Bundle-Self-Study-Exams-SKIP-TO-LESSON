@@ -17,3 +17,5 @@ If you do use a passphrase, you'll have to enter it every time you push or pull 
 Add an SSH Key to Your GitLab profile
 In the top right-hand corner of the the GitLab app, locate your user avatar and click the down arrow.
 From the dropdown menu, click the Edit profile item.
+On the left-hand side of the screen, click on SSH Keys.
+
