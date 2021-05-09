@@ -7,3 +7,5 @@ Generate an SSH key
 
 These steps are only needed if you do not have an SSH key already installed.
 In a terminal or command prompt, type ssh-keygen
+If prompted for a key type, choose ed25519, which is more secure than the more older id_rsa type.
+
