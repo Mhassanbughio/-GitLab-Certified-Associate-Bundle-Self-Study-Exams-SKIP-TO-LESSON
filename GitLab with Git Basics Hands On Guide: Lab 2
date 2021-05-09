@@ -44,5 +44,6 @@ In your terminal/command window, type cd to get out of the .ssh directory and in
 Type mkdir training to create a new directory.
 Type cd training to move into your new directory.
 Type git clone <URL you copied previously> to copy the git repository from your Top Level Project onto your local machine.
+Move into the repository you just cloned by typing cd top-level-project. This is where git will track your changes, and where you will interact with the repo and git.
 
 
