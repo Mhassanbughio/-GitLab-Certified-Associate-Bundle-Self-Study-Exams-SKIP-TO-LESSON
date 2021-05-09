@@ -19,4 +19,5 @@ In the top right-hand corner of the the GitLab app, locate your user avatar and 
 From the dropdown menu, click the Edit profile item.
 On the left-hand side of the screen, click on SSH Keys.
 If you have no SSH keys added to your profile, you will land on the Add an SSH Key screen.
+Return to your terminal/command session. To retrieve the SSH key you created, move into the folder you saved it to by typing cd {file path}
 
