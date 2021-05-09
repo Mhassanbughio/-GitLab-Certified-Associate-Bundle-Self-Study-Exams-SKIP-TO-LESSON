@@ -46,5 +46,6 @@ Type cd training to move into your new directory.
 Type git clone <URL you copied previously> to copy the git repository from your Top Level Project onto your local machine.
 Move into the repository you just cloned by typing cd top-level-project. This is where git will track your changes, and where you will interact with the repo and git.
 Type ls -al to see a list of all files in your current directory, including hidden files.
+Type git status. You will see a message saying your working tree is clean.
 
 
