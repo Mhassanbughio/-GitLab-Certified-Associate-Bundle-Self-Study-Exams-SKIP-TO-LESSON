@@ -34,4 +34,9 @@ Use the top navigation bar to get back to your Project Overview by clicking Proj
 Find your Top Level Project by looking for the one with the Owner label next to it (you might need to advance to the next page of projects).
 Locate the blue Clone button and click the dropdown arrow.
 In the Clone with SSH section, click the Copy URL button.
+  
+############################################################################################################################################
+ Create a directory on your local machine
+ 
+Note: The following git commands are summarized in GitLab's helpfl git cheat sheet.
 
