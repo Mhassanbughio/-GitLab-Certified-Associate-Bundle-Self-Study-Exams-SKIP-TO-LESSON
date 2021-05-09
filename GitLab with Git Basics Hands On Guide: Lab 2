@@ -23,4 +23,5 @@ Return to your terminal/command session. To retrieve the SSH key you created, mo
 Type ls -al to see two key files: a public key and a private key. The public key is called either id_ed25519.pub or id_rsa.pub and is what you need to share with GitLab.
 Type cat id_ed25519.pub or cat id_rsa.pub (depending on which kind of key you generated) to print the contents of your public key. Copy those contents to your clipboard.
 Return to the GitLab app in your browser. Paste the public key contents into the Key field, enter any title you want in the Title field, and click Add key.
+Your local computer is now authenticated to push and pull (interact) with GitLab.
 
