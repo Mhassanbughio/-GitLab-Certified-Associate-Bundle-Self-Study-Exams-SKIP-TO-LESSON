@@ -127,3 +127,8 @@ the server's repository is now one commit ahead of your local repository.
 
 Refresh your local branch with git fetch
 
+Since your local temporary_branch is out of sync with the remote temporary_branch, you must update your local copy of that branch to incorporate 
+the changes from the remote copy.
+
+
+
