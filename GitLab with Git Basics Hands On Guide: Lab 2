@@ -139,6 +139,7 @@ Pull from the remote (upstream) repository
 
 You now need to explicitly tell git to update the contents of your local temporary_branch by merging in changes from the GitLab.com temporary_branch.
 In your terminal/command window, type git pull and check the output to see how many files it updated locally.
+Type cat README.md to view the updated contents of the file. You should see the fourth line that you added in the GitLab.com Web IDE.
 
 
 
