@@ -134,5 +134,7 @@ In other words, it tells you how many commits your local branches are behind the
 Return to your terminal/command window and type git fetch. If you are prompted for your SSH passphrase, enter it.
 Type git status and review the updated status of your local branch.
 
+##################################################################################################################################################################
 Pull from the remote (upstream) repository
+
 
