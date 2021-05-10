@@ -132,6 +132,7 @@ the changes from the remote copy.
 The git fetch command retrieves the updated state of remote branches without updating the contents of your local branches. 
 In other words, it tells you how many commits your local branches are behind the remote branches, but it won't make any changes to your local branches.
 Return to your terminal/command window and type git fetch. If you are prompted for your SSH passphrase, enter it.
+Type git status and review the updated status of your local branch.
 
 
 
