@@ -118,5 +118,6 @@ From the GitLab.com dashboard, navigate to the Top Level Project and click on te
 You are now looking at files in temporary_branch. Click on README.md.
 Click the Web IDE button.
 In the Web IDE screen, add a new line to the end of the file: add a fourth line from the remote copy of temporary_branch
+Click the Commit… button.
 
 
