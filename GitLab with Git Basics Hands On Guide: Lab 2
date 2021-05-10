@@ -73,3 +73,5 @@ Note: Git has detected that we have edited a file in our local repo, but since w
 Add README.md to the local GitLab staging area
 Type git add README.md. If this is successful, git will produce no output. The add command doesn't move README.md on your filesystem, 
 but it does add it to what git calls a "staging area".
+Type git status to see that README.md is now ready to be committed (that is, it has been successfully staged).
+
