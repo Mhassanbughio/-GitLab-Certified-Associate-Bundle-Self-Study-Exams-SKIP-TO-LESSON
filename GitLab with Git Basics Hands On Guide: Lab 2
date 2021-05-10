@@ -124,3 +124,6 @@ Click the Commit button to finalize the changes on the remote copy of temporary_
 the server's repository is now one commit ahead of your local repository.
 
 ###############################################################################################################################################################
+
+Refresh your local branch with git fetch
+
