@@ -137,4 +137,8 @@ Type git status and review the updated status of your local branch.
 ##################################################################################################################################################################
 Pull from the remote (upstream) repository
 
+You now need to explicitly tell git to update the contents of your local temporary_branch by merging in changes from the GitLab.com temporary_branch.
+
+
+
 
