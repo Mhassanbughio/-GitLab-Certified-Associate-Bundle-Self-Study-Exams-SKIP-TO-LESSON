@@ -99,3 +99,5 @@ Modify your content again
 
 In your local machine's text editor (not the GitLab.com editor), add a new line to your local copy of README.md that says add a third line to file,
 and save the file.
+In your terminal/command window, type git add README.md to move the edited file to git's staging area.
+
