@@ -155,4 +155,5 @@ Update the remote repository
 
 In your terminal/command window, type git status to see that there are no changed files that you need to stage or commit and to confirm that you are on the master branch.
 Type git push to update the remote copy of master branch with any changes from your local copy.
+Navigate back to GitLab.com and view README.md in your project's master branch to view the changes.
 
