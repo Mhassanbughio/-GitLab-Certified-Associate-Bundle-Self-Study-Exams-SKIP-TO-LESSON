@@ -120,5 +120,7 @@ Click the Web IDE button.
 In the Web IDE screen, add a new line to the end of the file: add a fourth line from the remote copy of temporary_branch
 Click the Commit… button.
 Check the radio button for Commit to temporary_branch and uncheck Start a new merge request.
+Click the Commit button to finalize the changes on the remote copy of temporary_branch. Since you made this change on the Gitlab.com server, 
+the server's repository is now one commit ahead of your local repository.
 
 
