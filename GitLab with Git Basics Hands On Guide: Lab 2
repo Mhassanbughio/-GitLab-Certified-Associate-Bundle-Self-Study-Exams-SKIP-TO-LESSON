@@ -109,3 +109,10 @@ and confirm that your local changes were pushed up.
 
 #####################################################################################################################################################################
 
+Simulate a change on the remote temporary_branch
+
+In this section, let's simulate someone else in your organization making a change to the copy of temporary_branch that lives on GitLab.com. 
+When we're done with this section, the remote and local versions of temporary_branch will be different: 
+the code on that branch will have moved under your feet (so to speak)! In the section that follows this one, we'll see how to reconcile this difference.
+
+
