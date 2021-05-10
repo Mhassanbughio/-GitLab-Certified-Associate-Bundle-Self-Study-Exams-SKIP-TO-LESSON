@@ -84,3 +84,5 @@ Developer Tip: You can stage and commit a change at the same time by using the g
 You have now created a record or point-in-time snapshot of the file that you can refer back to if needed.
 Type git status to see that the staging area is empty again, following the commit.
 
+#################################################################################################################################################################
+
