@@ -144,3 +144,6 @@ Type cat README.md to view the updated contents of the file. You should see the 
 ####################################################################################################################################################################
 
 Merge all changes from temporary_branch into the master branchMerge all changes from temporary_branch into the master branch
+
+In your terminal/command window, type git branch to verify which branch you are currently working in. You should already be in temporary_branch.
+
