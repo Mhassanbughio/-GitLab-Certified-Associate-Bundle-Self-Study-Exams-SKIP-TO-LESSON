@@ -80,4 +80,5 @@ Type git status to see that README.md is now ready to be committed (that is, it 
 Commit the changes to README.md
 
 Type git commit -m "added a second line to readme.md"
+Developer Tip: You can stage and commit a change at the same time by using the git commit -am "commit message" command to save time!
 
