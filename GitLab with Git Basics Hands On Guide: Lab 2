@@ -149,3 +149,4 @@ In your terminal/command window, type git branch to verify which branch you are 
 Switch to your master branch by typing git checkout master
 Type git merge temporary_branch to incorporate all changes from your local temporary_branch (in this case, just the modified README.md) into your local master branch.
 
+#####################################################################################################################################################################
