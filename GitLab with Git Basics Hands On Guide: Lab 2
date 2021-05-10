@@ -117,5 +117,6 @@ the code on that branch will have moved under your feet (so to speak)! In the se
 From the GitLab.com dashboard, navigate to the Top Level Project and click on temporary_branch from the dropdown just below the project's name.
 You are now looking at files in temporary_branch. Click on README.md.
 Click the Web IDE button.
+In the Web IDE screen, add a new line to the end of the file: add a fourth line from the remote copy of temporary_branch
 
 
