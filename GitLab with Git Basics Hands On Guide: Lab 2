@@ -101,4 +101,5 @@ In your local machine's text editor (not the GitLab.com editor), add a new line 
 and save the file.
 In your terminal/command window, type git add README.md to move the edited file to git's staging area.
 Type git log to see a description of the commit you just made.
+Type git push to copy the edited README.md to the repo on GitLab.com.
 
