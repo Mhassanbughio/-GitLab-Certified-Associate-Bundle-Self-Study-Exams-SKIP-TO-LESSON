@@ -87,8 +87,11 @@ Type git status to see that the staging area is empty again, following the commi
 #################################################################################################################################################################
 
 Push Your changes to the temporary_branch on the remote GitLab server
+
 Type git push -u origin temporary_branch. Enter the passcode for your SSH key if prompted. 
 This creates a new branch on the GitLab server called temporary_branch and pushes your changes to that branch.
 Developer Tip: If you are ever unsure of the exact command to push your changes to the remote server,
 type git push and git will output an error message with the correct commands you can copy/paste.
+
+##################################################################################################################################################################
 
