@@ -84,3 +84,15 @@ Select Delete file alongside the filename of each file you wish to delete.
 Select Save changes.
 Clone snippets
 
+Embed snippets
+Public snippets can be shared and embedded on any website. You can reuse a GitLab snippet in multiple places, and any change to the source is reflected in the embedded snippets. When embedded, users can download it, or view the snippet in raw format.
+
+To embed a snippet:
+
+Confirm your snippet is publicly visible:
+If it’s a project snippet, the project must be public.
+The snippet is publicly visible.
+In Project > Settings > Permissions, the snippets permissions are set to Everyone with access.
+In your snippet’s Embed section, select Copy to copy a one-line script you can add to any website or blog post. For example:
+
+<script src="https://gitlab.com/namespace/project/snippets/SNIPPET_ID.js"></script>
