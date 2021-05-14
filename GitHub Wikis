@@ -137,3 +137,15 @@ Wikis are enabled by default in GitLab. Project administrators can enable or dis
 Administrators for self-managed GitLab installs can configure additional wiki settings.
 
 Group wikis PREMIUM
+
+Version history
+Group wikis work the same way as project wikis. Their usage is similar to project wikis, with a few limitations:
+
+Git LFS is not supported.
+Group wikis are not included in global search.
+Changes to group wikis don’t show up in the group’s activity feed.
+For updates, follow the epic that tracks feature parity with project wikis.
+
+Group wikis can be edited by members with Developer permissions and above. Group wiki repositories can be moved using the Group repository storage moves API.
+
+Link an external wiki
