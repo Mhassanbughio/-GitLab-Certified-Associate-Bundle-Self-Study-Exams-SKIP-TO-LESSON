@@ -13,6 +13,7 @@ Wikis are very convenient if you don’t want to keep your documentation in your
 
 You can create Wiki pages in the web interface or locally using Git since every Wiki is a separate Git repository.
 
+Web IDE
 
 –
 The Web IDE editor makes it faster and easier to contribute changes to your projects by providing an advanced editor with commit staging.
