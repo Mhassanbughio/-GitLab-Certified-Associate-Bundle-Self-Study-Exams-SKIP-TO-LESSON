@@ -96,3 +96,11 @@ In Project > Settings > Permissions, the snippets permissions are set to Everyon
 In your snippet’s Embed section, select Copy to copy a one-line script you can add to any website or blog post. For example:
 
 <script src="https://gitlab.com/namespace/project/snippets/SNIPPET_ID.js"></script>
+
+Add your script to your file.
+Embedded snippets display a header that shows:
+
+The filename, if defined.
+The snippet size.
+A link to GitLab.
+The actual snippet content.
