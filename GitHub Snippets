@@ -75,3 +75,11 @@ Select Edit in the top right corner.
 Select Add another file.
 Add your content to the file in the form fields provided.
 Select Save changes.
+
+To delete a file from your snippet through the GitLab UI:
+
+Go to your snippet in the GitLab UI.
+Select Edit in the top right corner.
+Select Delete file alongside the filename of each file you wish to delete.
+Select Save changes.
+Clone snippets
