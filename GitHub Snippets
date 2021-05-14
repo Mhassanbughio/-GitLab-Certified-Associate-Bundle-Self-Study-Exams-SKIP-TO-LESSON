@@ -109,3 +109,18 @@ Download snippets
 You can download the raw content of a snippet. By default, they download with Linux-style line endings (LF). If you want to preserve the original line endings you need to add a parameter line_ending=raw (For example: https://gitlab.com/snippets/SNIPPET_ID/raw?line_ending=raw). In case a snippet was created using the GitLab web interface the original line ending is Windows-like (CRLF).
 
 Comment on snippets
+With snippets, you engage in a conversation about that piece of code, which can encourage user collaboration.
+
+Troubleshooting
+Snippet limitations
+Binary files are not supported.
+Creating or deleting branches is not supported. Only the default branch is used.
+Git tags are not supported in snippet repositories.
+Snippets’ repositories are limited to 10 files. Attempting to push more than 10 files results in an error.
+Revisions are not visible to the user on the GitLab UI, but this feature is planned in future iterations. See the revisions tab issue for updates.
+The maximum size for a snippet is 50 MB, by default.
+Git LFS is not supported.
+Reduce snippets repository size
+Because versioned snippets are considered as part of the namespace storage size, it’s recommended to keep snippets’ repositories as compact as possible.
+
+For more information about tools to compact repositories, see the documentation on reducing repository size.
