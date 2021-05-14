@@ -37,3 +37,12 @@ Toggle the default visibility, and select whether snippets can be viewed by ever
 Select Save changes.
 
 Versioned snippets
+Introduced in GitLab 13.0.
+
+In GitLab versions 13.0 and later, snippets (both personal and project snippets) have version control enabled by default.
+
+This means that all snippets get their own underlying repository initialized with a default branch at the moment the snippet is created. Whenever a change to the snippet is saved, a new commit to the default branch is recorded. Commit messages are automatically generated. The snippet’s repository has only one branch. You can’t delete this branch, or create other branches.
+
+Existing snippets were automatically migrated in 13.0. Their current content was saved as the initial commit to the snippets’ repository.
+
+Filenames
