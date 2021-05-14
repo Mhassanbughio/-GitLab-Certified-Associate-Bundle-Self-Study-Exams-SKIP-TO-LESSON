@@ -128,3 +128,12 @@ A _sidebar example, formatted with Markdown:
 ---
 
 - [Sidebar](_sidebar)
+
+Support for displaying a generated table of contents with a custom side navigation is planned.
+
+Enable or disable a project wiki
+Wikis are enabled by default in GitLab. Project administrators can enable or disable the project wiki by following the instructions in Sharing and permissions.
+
+Administrators for self-managed GitLab installs can configure additional wiki settings.
+
+Group wikis PREMIUM
