@@ -149,3 +149,11 @@ For updates, follow the epic that tracks feature parity with project wikis.
 Group wikis can be edited by members with Developer permissions and above. Group wiki repositories can be moved using the Group repository storage moves API.
 
 Link an external wiki
+
+o add a link to an external wiki from a project’s left sidebar:
+
+In your project, go to Settings > Integrations.
+Select External wiki.
+Add the URL to your external wiki.
+(Optional) Select Test settings to verify the connection.
+Select Save changes.
