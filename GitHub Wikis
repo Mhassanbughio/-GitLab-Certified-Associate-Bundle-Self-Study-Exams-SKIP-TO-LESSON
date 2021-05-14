@@ -118,3 +118,13 @@ In the left sidebar, select Wiki.
 In the top right corner of the page, select Edit sidebar.
 When complete, select Save changes.
 A _sidebar example, formatted with Markdown:
+
+### [Home](home)
+
+- [Hello World](hello)
+- [Foo](foo)
+- [Bar](bar)
+
+---
+
+- [Sidebar](_sidebar)
