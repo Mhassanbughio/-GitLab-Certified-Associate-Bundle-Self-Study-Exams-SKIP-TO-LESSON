@@ -43,3 +43,10 @@ Markdown extensions: .mdown, .mkd, .mkdn, .md, .markdown.
 AsciiDoc extensions: .adoc, .ad, .asciidoc.
 Other markup extensions: .textile, .rdoc, .org, .creole, .wiki, .mediawiki, .rst.
 Special characters in page titles
+
+Wiki pages are stored as files in a Git repository, so certain characters have a special meaning:
+
+Spaces are converted into hyphens when storing a page.
+Hyphens (-) are converted back into spaces when displaying a page.
+Slashes (/) are used as path separators, and can’t be displayed in titles. If you create a title containing / characters, GitLab creates all the subdirectories needed to build that path. For example, a title of docs/my-page creates a wiki page with a path /wikis/docs/my-page.
+Length restrictions for file and directory names
