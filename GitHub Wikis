@@ -103,3 +103,9 @@ The commit message.
 The last update.
 Previous revisions, by selecting a revision number in the Page version column.
 View changes between page versions
+
+Track wiki events
+Version history
+GitLab tracks wiki creation, deletion, and update events. These events are displayed on the user profile, group, and project activity pages.
+
+Customize sidebar
