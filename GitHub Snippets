@@ -19,3 +19,13 @@ Select a visibility level, and select Create snippet.
 After you create a snippet, you can still add more files to it. In GitLab versions 13.0 and later, snippets are versioned by default.
 
 Discover snippets
+
+To discover all snippets visible to you in GitLab, you can:
+
+View all snippets visible to you: In the top navigation bar of your GitLab instance, go to More > Snippets to view your snippets dashboard.
+Visit GitLab snippets for your snippets on GitLab.com.
+Explore all public snippets: In the top navigation bar of your GitLab instance, go to More > Snippets and select Explore snippets to view all public snippets.
+View a project’s snippets: In your project, go to Snippets.
+
+
+Change default visibility of snippets
