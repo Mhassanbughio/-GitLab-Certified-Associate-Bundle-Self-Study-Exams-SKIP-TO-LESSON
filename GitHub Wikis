@@ -157,3 +157,15 @@ Select External wiki.
 Add the URL to your external wiki.
 (Optional) Select Test settings to verify the connection.
 Select Save changes.
+
+You can now see the External wiki option from your project’s left sidebar.
+
+When you enable this integration, the link to the external wiki won’t replace the link to the internal wiki. To hide the internal wiki from the sidebar, disable the project’s wiki.
+
+To hide the link to an external wiki:
+
+In your project, go to Settings > Integrations.
+Select External wiki.
+Unselect Enable integration.
+Select Save changes.
+Disable the project’s wiki
