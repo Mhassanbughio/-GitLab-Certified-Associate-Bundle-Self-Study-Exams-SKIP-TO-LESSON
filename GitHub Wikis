@@ -6,3 +6,14 @@ To access the wiki for a project or group, go to the page for your project or gr
 GitLab wikis support Markdown, RDoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links.
 
 In GitLab 13.5 and later, wiki pages display a sidebar, which you can customize. This sidebar contains a partial list of pages in the wiki, displayed as a nested tree, with sibling pages listed in alphabetical order. To view a list of all pages, select View All Pages in the sidebar:
+
+Create the wiki home page
+When a wiki is created, it is empty. On your first visit, create the landing page users see when viewing the wiki:
+
+Go to the page for your project or group.
+In the left sidebar, select Wiki, then Create your first page.
+Select a Format for styling your text.
+Add a welcome message in the Content section. You can always edit it later.
+Add a Commit message. Git requires a commit message, so GitLab creates one if you don’t enter one yourself.
+Select Create page.
+Create a new wiki page
