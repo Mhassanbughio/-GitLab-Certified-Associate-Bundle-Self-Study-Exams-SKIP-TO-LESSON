@@ -1,3 +1,14 @@
 Snippets
 –
 With GitLab Snippets you can store and share bits of code and text with other users.
+
+
+Wikis
+–
+A separate system for documentation called Wiki, is built right into each GitLab project. It is enabled by default on all new projects and you can find it under Wiki in your project.
+
+
+Wikis are very convenient if you don’t want to keep your documentation in your repository, but you do want to keep it in the same project where your code resides.
+
+
+You can create Wiki pages in the web interface or locally using Git since every Wiki is a separate Git repository.
