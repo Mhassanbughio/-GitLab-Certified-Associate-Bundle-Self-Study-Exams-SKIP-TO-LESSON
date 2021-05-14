@@ -109,3 +109,12 @@ Version history
 GitLab tracks wiki creation, deletion, and update events. These events are displayed on the user profile, group, and project activity pages.
 
 Customize sidebar
+
+Version history
+You need Developer permissions or higher to customize the wiki navigation sidebar. This process creates a wiki page named _sidebar which fully replaces the default sidebar navigation:
+
+Go to the page for your project or group.
+In the left sidebar, select Wiki.
+In the top right corner of the page, select Edit sidebar.
+When complete, select Save changes.
+A _sidebar example, formatted with Markdown:
