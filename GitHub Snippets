@@ -2,3 +2,16 @@ GitLab provides two types of snippets:
 
 Personal snippets: Created independent of any project. You can set a visibility level for your snippet: public, internal, or private.
 Project snippets: Always related to a specific project. Project snippets can be visible publicly or to only group members
+
+Create snippets
+You can create snippets in multiple ways, depending on whether you want to create a personal or project snippet:
+
+Select the kind of snippet you want to create:
+To create a personal snippet: On the Snippets dashboard, click New snippet, or:
+If you’re on a project’s page, select the plus icon () in the top navigation bar, and then select New snippet from the GitLab (GitLab SaaS) or Your Instance (self-managed) section of the same dropdown menu.
+For all other pages, select the plus icon () in the top navigation bar, then select New snippet from the dropdown menu.
+To create a project snippet: Go to your project’s page. Select the plus icon (), and then select New snippet from the This project section of the dropdown menu.
+Add a Title and Description.
+Name your File with an appropriate extension, such as example.rb or index.html. Filenames with appropriate extensions display syntax highlighting. Failure to add a filename can cause a known copy-pasting bug. If you don’t provide a filename, GitLab creates a name for you.
+(Optional) Add multiple files to your snippet.
+Select a visibility level, and select Create snippet.
