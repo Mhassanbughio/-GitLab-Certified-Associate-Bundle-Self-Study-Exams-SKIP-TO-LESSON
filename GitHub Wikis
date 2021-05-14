@@ -69,3 +69,14 @@ Select the edit icon ().
 Edit the content.
 Select Save changes.
 Create a table of contents
+
+To generate a table of contents from a wiki page’s subheadings, use the [[_TOC_]] tag. For an example, read Table of contents.
+
+Delete a wiki page
+You need Maintainer permissions or higher to delete a wiki page:
+
+Go to the page for your project or group.
+In the left sidebar, select Wiki, and go to the page you want to delete.
+Select Delete page.
+Confirm the deletion.
+Move a wiki page
