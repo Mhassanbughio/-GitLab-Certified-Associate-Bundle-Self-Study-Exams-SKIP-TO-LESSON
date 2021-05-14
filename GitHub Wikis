@@ -17,3 +17,20 @@ Add a welcome message in the Content section. You can always edit it later.
 Add a Commit message. Git requires a commit message, so GitLab creates one if you don’t enter one yourself.
 Select Create page.
 Create a new wiki page
+
+
+Create a new wiki page
+Users with Developer permissions can create new wiki pages:
+
+Go to the page for your project or group.
+In the left sidebar, select Wiki.
+Select New page on this page, or any other wiki page.
+Select a content format.
+Add a title for your new page. Page titles use special characters for subdirectories and formatting, and have length restrictions.
+Add content to your wiki page.
+(Optional) Attach a file, and GitLab stores it according to your installed version of GitLab:
+Files added in GitLab 11.3 and later: Files are stored in the wiki’s Git repository.
+Files added GitLab 11.2 and earlier: Files are stored in GitLab itself. To add the file to the wiki’s Git repository, you must re-upload the file.
+Add a Commit message. Git requires a commit message, so GitLab creates one if you don’t enter one yourself.
+Select Create page.
+Create or edit wiki pages locally
