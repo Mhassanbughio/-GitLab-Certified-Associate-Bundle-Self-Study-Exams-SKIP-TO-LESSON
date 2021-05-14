@@ -50,3 +50,13 @@ Spaces are converted into hyphens when storing a page.
 Hyphens (-) are converted back into spaces when displaying a page.
 Slashes (/) are used as path separators, and can’t be displayed in titles. If you create a title containing / characters, GitLab creates all the subdirectories needed to build that path. For example, a title of docs/my-page creates a wiki page with a path /wikis/docs/my-page.
 Length restrictions for file and directory names
+
+Many common file systems have a limit of 255 bytes for file and directory names. Git and GitLab both support paths exceeding those limits. However, if your file system enforces these limits, you cannot check out a local copy of a wiki that contains filenames exceeding this limit. To prevent this problem, the GitLab web interface and API enforce these limits:
+
+245 bytes for page titles (reserving 10 bytes for the file extension).
+255 bytes for directory names.
+Non-ASCII characters take up more than one byte.
+
+While you can still create files locally that exceed these limits, your teammates may not be able to check out the wiki locally afterward.
+
+Edit a wiki page
