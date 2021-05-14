@@ -29,3 +29,11 @@ View a project’s snippets: In your project, go to Snippets.
 
 
 Change default visibility of snippets
+Project snippets are enabled and available by default. To change their default visibility:
+
+In your project, go to Settings.
+Expand the Visibility, project features, permissions section, and scroll to Snippets.
+Toggle the default visibility, and select whether snippets can be viewed by everyone, or only project members.
+Select Save changes.
+
+Versioned snippets
