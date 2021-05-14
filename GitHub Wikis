@@ -60,3 +60,12 @@ Non-ASCII characters take up more than one byte.
 While you can still create files locally that exceed these limits, your teammates may not be able to check out the wiki locally afterward.
 
 Edit a wiki page
+
+You need Developer permissions or higher to edit a wiki page:
+
+Go to the page for your project or group.
+In the left sidebar, select Wiki, and go to the page you want to edit.
+Select the edit icon ().
+Edit the content.
+Select Save changes.
+Create a table of contents
