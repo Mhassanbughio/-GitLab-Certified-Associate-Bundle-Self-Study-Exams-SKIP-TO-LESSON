@@ -15,3 +15,7 @@ Add a Title and Description.
 Name your File with an appropriate extension, such as example.rb or index.html. Filenames with appropriate extensions display syntax highlighting. Failure to add a filename can cause a known copy-pasting bug. If you don’t provide a filename, GitLab creates a name for you.
 (Optional) Add multiple files to your snippet.
 Select a visibility level, and select Create snippet.
+
+After you create a snippet, you can still add more files to it. In GitLab versions 13.0 and later, snippets are versioned by default.
+
+Discover snippets
