@@ -1,0 +1,8 @@
+Wiki
+If you don’t want to keep your documentation in your repository, but you do want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git.
+
+To access the wiki for a project or group, go to the page for your project or group and, in the left sidebar, select Wiki. If Wiki is not listed in the left sidebar, a project administrator has disabled it.
+
+GitLab wikis support Markdown, RDoc, AsciiDoc, and Org for content. Wiki pages written in Markdown support all Markdown features, and also provide some wiki-specific behavior for links.
+
+In GitLab 13.5 and later, wiki pages display a sidebar, which you can customize. This sidebar contains a partial list of pages in the wiki, displayed as a nested tree, with sibling pages listed in alphabetical order. To view a list of all pages, select View All Pages in the sidebar:
