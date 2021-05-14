@@ -89,3 +89,10 @@ Select the edit icon ().
 Add the new path to the Title field. For example, if you have a wiki page called about under company and you want to move it to the wiki’s root, change the Title from about to /about.
 Select Save changes.
 View history of a wiki page
+
+The revision (Git commit SHA) of the page.
+The page author.
+The commit message.
+The last update.
+Previous revisions, by selecting a revision number in the Page version column.
+View changes between page versions
