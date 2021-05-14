@@ -96,3 +96,10 @@ The commit message.
 The last update.
 Previous revisions, by selecting a revision number in the Page version column.
 View changes between page versions
+
+The revision (Git commit SHA) of the page.
+The page author.
+The commit message.
+The last update.
+Previous revisions, by selecting a revision number in the Page version column.
+View changes between page versions
