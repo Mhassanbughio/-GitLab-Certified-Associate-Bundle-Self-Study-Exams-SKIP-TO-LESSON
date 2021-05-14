@@ -34,3 +34,12 @@ Files added GitLab 11.2 and earlier: Files are stored in GitLab itself. To add t
 Add a Commit message. Git requires a commit message, so GitLab creates one if you don’t enter one yourself.
 Select Create page.
 Create or edit wiki pages locally
+
+Wikis are based on Git repositories, so you can clone them locally and edit them like you would do with every other Git repository. To clone a wiki repository locally, select Clone repository from the right-hand sidebar of any wiki page, and follow the on-screen instructions.
+
+Files you add to your wiki locally must use one of the following supported extensions, depending on the markup language you wish to use. Files with unsupported extensions don’t display when pushed to GitLab:
+
+Markdown extensions: .mdown, .mkd, .mkdn, .md, .markdown.
+AsciiDoc extensions: .adoc, .ad, .asciidoc.
+Other markup extensions: .textile, .rdoc, .org, .creole, .wiki, .mediawiki, .rst.
+Special characters in page titles
