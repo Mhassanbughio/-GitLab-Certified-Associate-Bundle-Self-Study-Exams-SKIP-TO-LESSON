@@ -118,3 +118,12 @@ png by default. If another file already exists with the same name, a numeric suf
 After you have done that, you can preview projects with a package.json file and a main entry point inside the Web IDE.
 An example package.json is shown below.
 
+{
+  "main": "index.js",
+  "dependencies": {
+    "vue": "latest"
+  }
+}
+
+
+
