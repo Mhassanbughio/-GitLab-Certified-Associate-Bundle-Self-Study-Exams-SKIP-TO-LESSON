@@ -4,3 +4,14 @@ LAB 3: USING GITLAB ISSUES TO PUSH CODE
 ####################################################################################################################################################
 
 Create a new project and issue
+Navigate to your group, click the New project button, click Create blank project, and name your project Second Project.
+Under Visibility Level, click the radio button for Private.
+Enable the Initialize repository with a README checkbox.
+Click the green Create project button. After a few seconds it will take you to a page showing your new project's details.
+On the left-hand side of the screen, click the Issues section on the taskbar.
+Click the blue New issue button.
+In the title field, type new issue. Optionally, enter a comment in the Description dialog box.
+In the Assignees field, click the link for Assign to me.
+Click the Submit issue button to create the issue.
+
+Create a merge request
