@@ -115,3 +115,6 @@ The Markdown preview supports GitLab Flavored Markdown.
 You can also upload any local images by pasting them directly in the Markdown file. The image is uploaded to the same directory and is named image.
 png by default. If another file already exists with the same name, a numeric suffix is automatically added to the filename.
 
+After you have done that, you can preview projects with a package.json file and a main entry point inside the Web IDE.
+An example package.json is shown below.
+
