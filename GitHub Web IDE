@@ -89,3 +89,12 @@ Before you commit your changes, you can compare them with the previous commit by
 An additional review mode is available when you open a merge request, which shows you a preview of the merge request diff if you commit your changes.
 
 View CI job logs
+
+You can use the Web IDE to quickly fix failing tests by opening the branch or merge request in the Web IDE and opening the logs of the failed job. You can access the status of all jobs for the most recent pipeline and job traces for the current commit by clicking the Pipelines button in the top right.
+
+The pipeline status is also shown at all times in the status bar in the bottom left.
+
+Switching merge requests
+
+To switch between your authored and assigned merge requests, click the dropdown in the top of the sidebar to open a list of merge requests. You need to commit or discard all your changes before switching to a different merge request.
+
