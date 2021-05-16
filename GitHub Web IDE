@@ -70,3 +70,15 @@ match: a list of matching paths or glob expressions. If a schema matches a parti
 Please enclose the pattern in quotes if it begins with an asterisk (*), it’s be applied to that file.
 If a pattern begins with an asterisk (*), enclose it in quotation marks. Otherwise, the configuration file is not valid YAML.
 Configure the Web IDE
+
+The Web IDE supports configuration of certain editor settings by using .editorconfig files. When opening a file, the Web IDE looks for a file named .editorconfig in the current directory and all parent directories. If a configuration file is found and has settings that match the file’s path, these settings are enforced on the opened file.
+
+The Web IDE currently supports the following .editorconfig settings:
+
+indent_style
+indent_size
+end_of_line
+trim_trailing_whitespace
+tab_width
+insert_final_newline
+Commit changes
