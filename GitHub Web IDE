@@ -16,3 +16,5 @@ navigating editor warnings and suggestions, and more.
 
 Some commands have a keyboard shortcut assigned to them. The command palette displays this shortcut next to each command.
 You can use this shortcut to invoke the command without having to select it in the command palette.
+
+Syntax highlighting
