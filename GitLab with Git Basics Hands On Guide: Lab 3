@@ -19,3 +19,15 @@ Create a merge request
 Just above the comment box, click the dropdown arrow next to the green Create merge request button. 
 The dropdown lets you customize the branch name for this new merge request. For this exercise, leave it at the default.
 Click Create merge request to make a merge request for a branch named after the issue's title.
+
+Edit files on a branch, using GitLab's Web IDE
+
+In the middle of the merge request page, click Open in Web IDE.
+Double-check that you are on the branch you just created by looking for the branch name in a dropdown in the top left corner of the page.
+In the left-hand file list, click README.md.
+On line 3 of the file, type Edit my README.md file.
+Click the blue Commit… button at the bottom of the screen.
+In the commit message box, type Updated the README.md file. Leave the radio box button at the default, so the commit will be on the branch you created earlier. Click Commit.
+
+
+Verify Changes in a Merge Request
