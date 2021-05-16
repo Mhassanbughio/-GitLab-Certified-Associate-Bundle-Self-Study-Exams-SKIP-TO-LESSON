@@ -82,3 +82,10 @@ trim_trailing_whitespace
 tab_width
 insert_final_newline
 Commit changes
+
+Reviewing changes
+Before you commit your changes, you can compare them with the previous commit by switching to the review mode or selecting the file from the list of changes.
+
+An additional review mode is available when you open a merge request, which shows you a preview of the merge request diff if you commit your changes.
+
+View CI job logs
