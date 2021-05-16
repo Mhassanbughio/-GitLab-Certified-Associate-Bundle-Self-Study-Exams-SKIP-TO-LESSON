@@ -185,3 +185,16 @@ terminal:
         # The `webide-file-sync` executable defaults to port 3000.
         - number: 3000
         
+        
+   hanges made to your files via the Web IDE sync to the running terminal when:
+
+Control + S (or Command + S on Mac) is pressed while editing a file.
+Anything outside the file editor is clicked after editing a file.
+A file or folder is created, deleted, or renamed.
+Limitations
+
+
+        
+        
+        
+        
