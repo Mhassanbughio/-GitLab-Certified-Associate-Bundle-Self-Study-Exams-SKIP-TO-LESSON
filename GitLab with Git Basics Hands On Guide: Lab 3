@@ -31,3 +31,14 @@ In the commit message box, type Updated the README.md file. Leave the radio box 
 
 
 Verify Changes in a Merge Request
+
+Navigate to the merge request you just added a commit to. A convenient way to do this is to click 
+the small blue link at the very bottom of the page, that shows an exclamation point and the merge request number.
+On the merge request page, locate the Assignee section in the upper right-hand corner 
+(you might have to click the double arrow at the top right of the screen to expand the widget bar). Ensure the merge request is assigned to yourself.
+Click the Changes tab directly below the merge request title.
+Hover over the left side of any line, and a comment icon will appear. Hover over line 3 and click the comment icon.
+In the comment field, type this code will fix this! and click the Start a review button. Click Submit review to add your comment.
+To mark that the comment has been seen and the commit has been adjusted, close the review by clicking Resolve thread.
+
+Approve the merge request
