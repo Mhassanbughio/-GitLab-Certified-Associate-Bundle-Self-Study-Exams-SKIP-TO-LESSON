@@ -15,3 +15,7 @@ In the Assignees field, click the link for Assign to me.
 Click the Submit issue button to create the issue.
 
 Create a merge request
+
+Just above the comment box, click the dropdown arrow next to the green Create merge request button. 
+The dropdown lets you customize the branch name for this new merge request. For this exercise, leave it at the default.
+Click Create merge request to make a merge request for a branch named after the issue's title.
