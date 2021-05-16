@@ -42,3 +42,10 @@ In the comment field, type this code will fix this! and click the Start a review
 To mark that the comment has been seen and the commit has been adjusted, close the review by clicking Resolve thread.
 
 Approve the merge request
+To mark the merge request ready to merge, click Mark as ready in the upper right-hand corner.
+Click the Overview tab.
+If there were eligible approvers, an Approve button would be in the View eligible approvers section.
+Ensure the Delete source branch checkbox is enabled, and click the green Merge button.
+Navigate back to your repository's project by clicking Repository in the left-hand nav bar. Switch to the master branch in the branch dropdown at the top left of the page, if you're not on that branch already. Verify that the merge successfully added the Edit my README.md file line to the bottom of README.md.
+
+Suggestions?
