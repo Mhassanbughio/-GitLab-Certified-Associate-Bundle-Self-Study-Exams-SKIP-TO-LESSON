@@ -96,5 +96,14 @@ The pipeline status is also shown at all times in the status bar in the bottom l
 
 Switching merge requests
 
-To switch between your authored and assigned merge requests, click the dropdown in the top of the sidebar to open a list of merge requests. You need to commit or discard all your changes before switching to a different merge request.
+To switch between your authored and assigned merge requests, click the dropdown in the top of the sidebar to open a list of merge requests.
+You need to commit or discard all your changes before switching to a different merge request.
 
+
+Switching branches
+Introduced in GitLab Free 11.2.
+
+To switch between branches of the current project repository, click the dropdown in the top of the sidebar to open a list of branches.
+You need to commit or discard all your changes before switching to a different branch.
+
+Markdown editing
