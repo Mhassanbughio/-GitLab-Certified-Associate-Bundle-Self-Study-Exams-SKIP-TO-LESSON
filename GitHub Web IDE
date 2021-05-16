@@ -65,3 +65,8 @@ schemas:
 
 Each schema entry supports two properties:
 
+uri: please provide an absolute URL for the schema definition file here. The schema from this URL is loaded when a matching file is open.
+match: a list of matching paths or glob expressions. If a schema matches a particular path pattern, it is applied to that file.
+Please enclose the pattern in quotes if it begins with an asterisk (*), it’s be applied to that file.
+If a pattern begins with an asterisk (*), enclose it in quotation marks. Otherwise, the configuration file is not valid YAML.
+Configure the Web IDE
