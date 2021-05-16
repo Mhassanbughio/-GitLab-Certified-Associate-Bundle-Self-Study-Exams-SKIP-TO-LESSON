@@ -1,2 +1,8 @@
 –
 The Web IDE editor makes it faster and easier to contribute changes to your projects by providing an advanced editor with commit staging.
+
+File finder
+Introduced in GitLab Free 10.8.
+
+The file finder allows you to quickly open files in the current branch by searching for fragments of the file path. The file finder is launched using the keyboard shortcut Command+p, Control+p, or t (when editor is not in focus). Type the filename or file path fragments to start seeing results.
+
