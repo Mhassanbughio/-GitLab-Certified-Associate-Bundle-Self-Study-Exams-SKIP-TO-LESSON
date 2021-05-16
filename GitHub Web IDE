@@ -18,3 +18,15 @@ Some commands have a keyboard shortcut assigned to them. The command palette dis
 You can use this shortcut to invoke the command without having to select it in the command palette.
 
 Syntax highlighting
+
+As expected from an IDE, syntax highlighting for many languages in the Web IDE makes your direct editing even easier.
+
+The Web IDE currently provides:
+
+Basic syntax colorization for a variety of programming, scripting and markup languages such as XML, PHP, C#, C++, Markdown, Java, VB, Batch, Python, Ruby, and Objective-C.
+IntelliSense and validation support (displaying errors and warnings, providing smart completions, formatting, and outlining) for some languages. 
+For example: TypeScript, JavaScript, CSS, LESS, SCSS, JSON, and HTML.
+Because the Web IDE is based on the Monaco Editor, you can find a more complete list of supported languages in the Monaco languages repository. 
+Under the hood, Monaco uses the Monarch library for syntax highlighting.
+
+If you are missing Syntax Highlighting support for any language, we prepared a short guide on how to add support for a missing language Syntax Highligh
