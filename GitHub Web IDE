@@ -107,3 +107,11 @@ To switch between branches of the current project repository, click the dropdown
 You need to commit or discard all your changes before switching to a different branch.
 
 Markdown editing
+
+
+When you edit Markdown files in the Web IDE, you can preview your changes by clicking the Preview Markdown tab above the file editor.
+The Markdown preview supports GitLab Flavored Markdown.
+
+You can also upload any local images by pasting them directly in the Markdown file. The image is uploaded to the same directory and is named image.
+png by default. If another file already exists with the same name, a numeric suffix is automatically added to the filename.
+
