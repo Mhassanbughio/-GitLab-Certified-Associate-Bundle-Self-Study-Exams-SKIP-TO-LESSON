@@ -49,3 +49,19 @@ GitLab administrators with access to the GitLab Rails console can enable it for 
 To enable it:
 Feature.enable(:schema_linting)
 Feature.disable(:schema_linting)
+
+schemas:
+  - uri: https://json.schemastore.org/package
+    match:
+      - package.json
+  - uri: https://somewebsite.com/first/raw/url
+    match:
+      - data/release_posts/unreleased/*.{yml,yaml}
+  - uri: https://somewebsite.com/second/raw/url
+    match:
+      - "*.meta.json"
+      
+      
+
+Each schema entry supports two properties:
+
