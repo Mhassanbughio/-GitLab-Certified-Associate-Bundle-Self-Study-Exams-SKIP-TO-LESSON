@@ -10,3 +10,8 @@ In the Project name field, enter Auto DevOps-test. Make sure the Visiblity Level
 Auto DevOps is an alternative to crafting your own .gitlab-ci.yml file. Note the banner at the top of the window alerting us that Auto DevOps is running in the background.
 In the left pane, click Pipelines in the CI/CD section. Note there are no pipelines running.
 The most common way to run a pipeline is simply to make a commit to any branch of your project's repository, so let's do that next.
+In the left pane, click Branches in the Repository section. Click the green New branch button.
+In the Branch name field, enter new-feature. Click Create branch.
+In the left pane, click Pipelines in the CI/CD section. Note that there is now a pipeline running, and that it has the Auto DevOps label.
+Click running and note the 6 stages that Auto DevOps has created.
+Commit a change in order to trigger a pipeline run
