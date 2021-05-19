@@ -1,3 +1,8 @@
 GitLab with Git Basics Hands On Guide: Lab 5
 
 LAB 5: AUTO DEVOPS WITH A PREDEFINED PROJECT TEMPLATE
+
+Create a new Node JS Express project with Auto DevOps
+Just like with previous labs, navigate to your group and click New project. Click Create from template and 
+then click Use template next to NodeJS Express.
+In the Project name field, enter Auto DevOps-test. Make sure the Visiblity Level is Private. Click Create project.
