@@ -28,3 +28,6 @@ the world of packages that need to be fetched from remote repositories. By addin
 you can ensure reliability, accuracy, and audit-ability for the packages you depend on.
 
 Jupyter Notebooks
+Jupyter Notebooks are a common type of code used for data-science use cases.
+With GitLab you can store and version control those notebooks in the same way you store packages and application code.
+
