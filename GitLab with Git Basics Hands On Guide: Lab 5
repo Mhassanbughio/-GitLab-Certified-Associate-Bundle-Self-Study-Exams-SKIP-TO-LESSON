@@ -25,3 +25,8 @@ In the Commit message field, type Update welcome message in index.pug. Click Com
 Click the blue Create merge request button.
 Assign the merge request to yourself.
 Add Draft:to the beginning of the text in the Title field to show that it isn't ready to be merged yet.
+Leave all other fields at their default values and click Submit merge request at the bottom of the page. 
+You now have an active merge request for merging the new-feature branch into the master branch.
+The page you are on shows the details of that merge request, including the status of the last pipeline
+that was run on the new-feature branch (sometimes you have to refresh the page to see the pipeline's status).
+GitLab will run a new pipeline every time you commit to the new-feature branch.
