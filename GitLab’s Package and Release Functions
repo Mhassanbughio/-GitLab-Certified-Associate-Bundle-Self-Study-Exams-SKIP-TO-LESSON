@@ -8,3 +8,7 @@ Ensure DevOps acceleration with automated software pipelines that flow freely wi
 Package Stage Functions 1
 
 Package Registry
+
+Every team needs a place to store their packages and dependencies. GitLab aims to provide a comprehensive solution, 
+integrated into our single application, that supports package management for all commonly used languages and binary formats.
+
