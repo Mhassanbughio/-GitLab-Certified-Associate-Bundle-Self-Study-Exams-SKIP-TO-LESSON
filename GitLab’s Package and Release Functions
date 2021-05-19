@@ -27,3 +27,4 @@ The GitLab dependency proxy* can serve as an intermediary between your local dev
 the world of packages that need to be fetched from remote repositories. By adding a security and validation layer to a caching proxy,
 you can ensure reliability, accuracy, and audit-ability for the packages you depend on.
 
+Jupyter Notebooks
