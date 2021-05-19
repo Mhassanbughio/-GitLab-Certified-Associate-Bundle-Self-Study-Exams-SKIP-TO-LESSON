@@ -30,3 +30,7 @@ You now have an active merge request for merging the new-feature branch into the
 The page you are on shows the details of that merge request, including the status of the last pipeline
 that was run on the new-feature branch (sometimes you have to refresh the page to see the pipeline's status).
 GitLab will run a new pipeline every time you commit to the new-feature branch.
+Toward the end of the Auto DevOps pipeline, it will deploy your NodeJS Express application into a review environment named after the branch: review/new-feature.
+You can see the Docker container that the Auto DevOps pipeline created when it was deploying your application to the review environment:
+in the left pane, click Container Registry in the Packages & Registries section.
+Suggestions?
