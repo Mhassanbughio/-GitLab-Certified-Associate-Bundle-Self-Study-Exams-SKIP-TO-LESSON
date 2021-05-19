@@ -22,3 +22,6 @@ Click views > index.pug.
 Click the blue Edit button and then modify the last line of index.pug to: p GitLab welcomes you to #{title} 
 Note: be sure to include the p at the beginning of the line.
 In the Commit message field, type Update welcome message in index.pug. Click Commit changes.
+Click the blue Create merge request button.
+Assign the merge request to yourself.
+Add Draft:to the beginning of the text in the Title field to show that it isn't ready to be merged yet.
