@@ -13,3 +13,8 @@ Every team needs a place to store their packages and dependencies. GitLab aims t
 integrated into our single application, that supports package management for all commonly used languages and binary formats.
 
 Container Registry
+A container registry* is a secure and private registry for Docker images built-in to GitLab.
+Creating, pushing, and retrieving images works out of the box with GitLab CI/CD.
+*Available for Premium and Ultimate
+
+
