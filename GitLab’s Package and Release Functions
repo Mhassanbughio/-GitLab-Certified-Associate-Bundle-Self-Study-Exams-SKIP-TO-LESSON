@@ -23,3 +23,7 @@ Kubernetes cluster integrations can take advantage of Helm charts to standardize
 Supporting a built-in helm chart registry allows for better, self-managed container orchestration.
 
 Dependency Proxy
+The GitLab dependency proxy* can serve as an intermediary between your local developers and automation and 
+the world of packages that need to be fetched from remote repositories. By adding a security and validation layer to a caching proxy,
+you can ensure reliability, accuracy, and audit-ability for the packages you depend on.
+
