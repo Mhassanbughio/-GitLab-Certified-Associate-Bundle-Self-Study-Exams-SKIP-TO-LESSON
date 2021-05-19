@@ -15,3 +15,10 @@ In the Branch name field, enter new-feature. Click Create branch.
 In the left pane, click Pipelines in the CI/CD section. Note that there is now a pipeline running, and that it has the Auto DevOps label.
 Click running and note the 6 stages that Auto DevOps has created.
 Commit a change in order to trigger a pipeline run
+In the left pane, click Repository.
+Switch to the new-feature branch by selecting it in the dropdown that currently says master near the top left of the window.
+To edit a file on this branch, click Web IDE near the top right of the window.
+Click views > index.pug.
+Click the blue Edit button and then modify the last line of index.pug to: p GitLab welcomes you to #{title} 
+Note: be sure to include the p at the beginning of the line.
+In the Commit message field, type Update welcome message in index.pug. Click Commit changes.
