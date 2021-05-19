@@ -31,3 +31,5 @@ Jupyter Notebooks
 Jupyter Notebooks are a common type of code used for data-science use cases.
 With GitLab you can store and version control those notebooks in the same way you store packages and application code.
 
+Git LFS
+
