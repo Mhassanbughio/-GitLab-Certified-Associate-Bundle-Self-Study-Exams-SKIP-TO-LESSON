@@ -19,3 +19,6 @@ Creating, pushing, and retrieving images works out of the box with GitLab CI/CD.
 
 Helm Chart Registry
 
+Kubernetes cluster integrations can take advantage of Helm charts to standardize their distribution and install processes. 
+Supporting a built-in helm chart registry allows for better, self-managed container orchestration.
+
