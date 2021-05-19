@@ -33,3 +33,7 @@ With GitLab you can store and version control those notebooks in the same way yo
 
 Git LFS
 
+Git LFS (Large File Storage) is a Git extension, which reduces the impact of large files in your repository by downloading 
+the relevant versions of them lazily. Specifically, large files are downloaded during the checkout process rather than during cloning or fetching.
+
+
