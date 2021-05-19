@@ -6,3 +6,7 @@ Create a new Node JS Express project with Auto DevOps
 Just like with previous labs, navigate to your group and click New project. Click Create from template and 
 then click Use template next to NodeJS Express.
 In the Project name field, enter Auto DevOps-test. Make sure the Visiblity Level is Private. Click Create project.
+
+Auto DevOps is an alternative to crafting your own .gitlab-ci.yml file. Note the banner at the top of the window alerting us that Auto DevOps is running in the background.
+In the left pane, click Pipelines in the CI/CD section. Note there are no pipelines running.
+The most common way to run a pipeline is simply to make a commit to any branch of your project's repository, so let's do that next.
