@@ -367,4 +367,11 @@ They may dismiss a vulnerability if it doesn’t apply to their projects
 They may create an issue for a vulnerability if there’s a possible threat
 GitLab tracks vulnerabilities so that user feedback is not lost when new Git commits are pushed to the repository. 
 Vulnerabilities are tracked using a combination of three attributes:
+Report type
+Location fingerprint
+Primary identifier
+Right now, GitLab cannot track a vulnerability if its location changes as new Git commits are pushed, and this results in user feedback being lost. For instance, user feedback on a SAST vulnerability is lost if the affected file is renamed or the affected line moves down. This is addressed in issue #7586.
 
+In some cases, the multiple scans executed in the same CI pipeline result in duplicates that are automatically merged using the vulnerability location and identifiers. Two vulnerabilities are considered to be the same if they share the same location fingerprint and at least one identifier. Two identifiers are the same if they share the same type and id. CWE and WASC identifiers are not considered because they describe categories of vulnerability flaws, but not specific security flaws.
+
+Severity and confidence
