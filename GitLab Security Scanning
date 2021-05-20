@@ -41,3 +41,10 @@ Fail-safe
 To be aligned with the GitLab Security paradigm, scanning jobs should not block the pipeline when they fail, so the allow_failure parameter should be set to true.
 
 Artifacts
+
+Scanning jobs must declare a report that corresponds to the type of scanning they perform, using the artifacts:reports keyword.
+Valid reports are: dependency_scanning, container_scanning, dast, api_fuzzing, coverage_fuzzing, and sast.
+
+For example, here is the definition of a SAST job that generates a file named gl-sast-report.json, and uploads it as a SAST report:
+
+
