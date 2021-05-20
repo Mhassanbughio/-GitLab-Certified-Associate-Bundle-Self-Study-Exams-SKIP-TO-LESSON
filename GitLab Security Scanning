@@ -241,5 +241,13 @@ Example Vulnerability
 }
 
 
+The description might explain how the vulnerability works or give context about the exploit. It should not repeat the other fields of the vulnerability object. 
+In particular, the description should not repeat the location (what is affected) or the solution (how to mitigate the risk).
+
+Solution
+You can use the solution field to instruct users how to fix the identified vulnerability or to mitigate the risk. 
+End-users interact with this field, whereas GitLab automatically processes the remediations objects.
+
+Identifiers
 
 
