@@ -217,6 +217,10 @@ The name and message fields contain a short description of the vulnerability. Th
 
 The name field is context-free and contains no information on where the vulnerability has been found, whereas the message may repeat the location.
 
+For instance, a message for a vulnerability reported by Dependency Scanning gives information on the vulnerable dependency, which is redundant with the location field of the vulnerability. The name field is preferred but the message field is used when the context/location cannot be removed from the title of the vulnerability.
+
+To illustrate, here is an example vulnerability object reported by a Dependency Scanning scanner, and where the message repeats the location field:
+
 As a visual example, this screenshot highlights where these fields are used when viewing a vulnerability as part of a pipeline view.
 
 Example Vulnerability
