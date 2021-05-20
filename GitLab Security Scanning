@@ -207,3 +207,16 @@ We recommend that you generate a UUID and use it as the id field’s value.
 
 Category
 
+The value of the category field matches the report type: dependency_scanning, container_scanning, sast, and dast.
+
+Scanner
+The scanner field is an object that embeds a human-readable name and a technical id. The id should not collide with any other scanner another integrator would provide.
+
+Name, message, and description
+The name and message fields contain a short description of the vulnerability. The description field provides more details.
+
+The name field is context-free and contains no information on where the vulnerability has been found, whereas the message may repeat the location.
+
+As a visual example, this screenshot highlights where these fields are used when viewing a vulnerability as part of a pipeline view.
+
+Example Vulnerability
