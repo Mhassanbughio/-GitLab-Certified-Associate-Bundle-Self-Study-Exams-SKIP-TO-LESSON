@@ -1,0 +1,3 @@
+GitLab provides several built in security scanners, these can be easily added to your .
+gitlab-ci.yml files by using the includes -template feature. Read more about the various options below!
+
