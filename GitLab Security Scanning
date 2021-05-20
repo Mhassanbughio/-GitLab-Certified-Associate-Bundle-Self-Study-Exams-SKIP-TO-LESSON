@@ -350,3 +350,11 @@ The location of a SAST vulnerability must have a file and a start_line field, gi
 nd the affected line number, respectively. It may also have an end_line, a class, and a method.
 
 For instance, here is the location object for a security flaw found at line 41 of src/main/java/com/gitlab/example/App.java, in the generateSecretToken method of the com.gitlab.security_products.tests.App Java class:
+{
+    "file": "src/main/java/com/gitlab/example/App.java",
+    "start_line": 41,
+    "end_line": 41,
+    "class": "com.gitlab.security_products.tests.App",
+    "method": "generateSecretToken1"
+}
+
