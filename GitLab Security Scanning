@@ -27,3 +27,10 @@ The image keyword is used to specify the Docker image containing the security sc
 Script
 The script keyword is used to specify the commands to run the scanner. Because the script entry can’t be left empty, it must be set to the command that performs the scan.
 It is not possible to rely on the predefined ENTRYPOINT and CMD of the Docker image to perform the scan automatically, without passing any command.
+
+The before_script should not be used in the job definition because users may rely on this to prepare their projects before performing the scan. 
+For instance, it is common practice to use before_script to install system libraries a particular project needs before performing SAST or Dependency Scanning.
+
+Similarly, after_script should not be used in the job definition, because it may be overridden by users.
+
+Stage
