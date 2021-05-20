@@ -348,3 +348,5 @@ The image is also mandatory. All other attributes are optional.
 SAST
 The location of a SAST vulnerability must have a file and a start_line field, giving the path of the affected file, a
 nd the affected line number, respectively. It may also have an end_line, a class, and a method.
+
+For instance, here is the location object for a security flaw found at line 41 of src/main/java/com/gitlab/example/App.java, in the generateSecretToken method of the com.gitlab.security_products.tests.App Java class:
