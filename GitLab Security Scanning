@@ -263,4 +263,18 @@ WASC	wasc	WASC-19
 RHSA	rhsa	RHSA-2020:0111
 ELSA	elsa	ELSA-2020-0085
 
+The generic identifiers listed above are defined in the common library, which is shared by some of the analyzers that GitLab maintains.
+You can contribute new generic identifiers to if needed. Analyzers may also produce vendor-specific or product-specific identifiers,
+which don’t belong in the common library.
+
+The first item of the identifiers array is called the primary identifier. The primary identifier is particularly important,
+because it is used to track vulnerabilities as new commits are pushed to the repository. Identifiers are also used to merge duplicate vulnerabilities reported for the same commit, except for CWE and WASC.
+
+Not all vulnerabilities have CVEs, and a CVE can be identified multiple times. As a result, a CVE isn’t a stable identifier 
+and you shouldn’t assume it as such when tracking vulnerabilities.
+
+The maximum number of identifiers for a vulnerability is set as 20. If a vulnerability has more than 20 identifiers, the system saves only the first 20 of them. Note that vulnerabilities in the Pipeline Security tab do not enforce this limit and all identifiers present in the report artifact are displayed.
+
+Location
+
 
