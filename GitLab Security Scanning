@@ -157,3 +157,10 @@ Orchestrator Exit Code	Description
 Logging
 
 
+The scanner should log error messages and warnings so that users can easily investigate misconfiguration and integration issues by looking at the log of the CI scanning job.
+
+Scanners may use ANSI escape codes to colorize the messages they write to the Unix standard output and standard error streams. We recommend using red to report errors, yellow for warnings, and green for notices. Also, we recommend prefixing error messages with [ERRO], warnings with [WARN], and notices with [INFO].
+
+Logging level
+The scanner should filter out a log message if its log level is lower than the one set in the SECURE_LOG_LEVEL CI/CD variable. For instance, 
+info and warn messages should be skipped when SECURE_LOG_LEVEL is set to error. Accepted values are as follows, listed from highest to lowest:
