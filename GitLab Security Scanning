@@ -358,3 +358,13 @@ For instance, here is the location object for a security flaw found at line 41 o
     "method": "generateSecretToken1"
 }
 
+The location fingerprint of a SAST vulnerability combines file, start_line, and end_line, so these attributes are mandatory. All other attributes are optional.
+
+Tracking and merging vulnerabilities
+Users may give feedback on a vulnerability:
+
+They may dismiss a vulnerability if it doesn’t apply to their projects
+They may create an issue for a vulnerability if there’s a possible threat
+GitLab tracks vulnerabilities so that user feedback is not lost when new Git commits are pushed to the repository. 
+Vulnerabilities are tracked using a combination of three attributes:
+
