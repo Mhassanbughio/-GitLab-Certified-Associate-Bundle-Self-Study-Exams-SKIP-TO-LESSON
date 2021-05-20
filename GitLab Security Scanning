@@ -34,3 +34,10 @@ For instance, it is common practice to use before_script to install system libra
 Similarly, after_script should not be used in the job definition, because it may be overridden by users.
 
 Stage
+
+For consistency, scanning jobs should belong to the test stage when possible. The stage keyword can be omitted because test is the default value.
+
+Fail-safe
+To be aligned with the GitLab Security paradigm, scanning jobs should not block the pipeline when they fail, so the allow_failure parameter should be set to true.
+
+Artifacts
