@@ -183,7 +183,8 @@ If you are using go and common, then it is suggested that you use Logrus and com
 Report
 The report is a JSON document that combines vulnerabilities with possible remediations.
 
-This documentation gives an overview of the report JSON format, as well as recommendations and examples to help integrators set its fields. The format is extensively described in the documentation of SAST, DAST, Dependency Scanning, and Container Scanning.
+This documentation gives an overview of the report JSON format, as well as recommendations and examples to help integrators set its fields. 
+The format is extensively described in the documentation of SAST, DAST, Dependency Scanning, and Container Scanning.
 
 You can find the schemas for these scanners here:
 
@@ -195,4 +196,14 @@ Coverage Fuzzing
 Secret Detection
 Version
 
+This field specifies the version of the Security Report Schemas you are using. Please refer to the releases of the schemas for the specific versions to use.
+
+Vulnerabilities
+The vulnerabilities field of the report is an array of vulnerability objects.
+
+ID
+The id field is the unique identifier of the vulnerability. It is used to reference a fixed vulnerability from a remediation objects. 
+We recommend that you generate a UUID and use it as the id field’s value.
+
+Category
 
