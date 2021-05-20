@@ -298,3 +298,13 @@ For instance, here is the location object for a vulnerability affecting version 
     }
 }
 
+This affected dependency is listed in client/package.json, a dependency file processed by npm or yarn.
+
+The location fingerprint of a Dependency Scanning vulnerability combines the file and the package name, so these attributes are mandatory.
+All other attributes are optional.
+
+Container Scanning
+Similar to Dependency Scanning, the location of a Container Scanning vulnerability has a dependency and a file.
+It also has an operating_system field.
+
+For instance, here is the location object for a vulnerability affecting version 2.50.3-2+deb9u1 of Debian package glib2.0:
