@@ -375,3 +375,12 @@ Right now, GitLab cannot track a vulnerability if its location changes as new Gi
 In some cases, the multiple scans executed in the same CI pipeline result in duplicates that are automatically merged using the vulnerability location and identifiers. Two vulnerabilities are considered to be the same if they share the same location fingerprint and at least one identifier. Two identifiers are the same if they share the same type and id. CWE and WASC identifiers are not considered because they describe categories of vulnerability flaws, but not specific security flaws.
 
 Severity and confidence
+The severity field describes how much the vulnerability impacts the software, whereas the confidence field describes how reliable the assessment of the vulnerability is. The severity is used to sort the vulnerabilities in the security dashboard.
+
+The severity ranges from Info to Critical, but it can also be Unknown. Valid values are: Unknown, Info, Low, Medium, High, or Critical
+
+The confidence ranges from Low to Confirmed, but it can also be Unknown, Experimental or even Ignore if the vulnerability is to be ignored. 
+Valid values are: Ignore, Unknown, Experimental, Low, Medium, High, or Confirmed
+
+Unknown values means that data is unavailable to determine it’s actual value. Therefore, it may be high, medium, or low, and needs to be investigated.
+We have provided a chart of the available SAST Analyzers and what data is currently available.
