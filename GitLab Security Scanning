@@ -170,8 +170,29 @@ error
 warn
 info
 debug
-It is recommended to use the debug level for verbose logging that could be useful when debugging. The default value for SECURE_LOG_LEVEL should be set to info.
+It is recommended to use the debug level for verbose logging that could be useful when debugging. 
+The default value for SECURE_LOG_LEVEL should be set to info.
 
-When executing command lines, scanners should use the debug level to log the command line and its output. For instance, the bundler-audit scanner uses the debug level to log the command line bundle audit check --quiet, and what bundle audit writes to the standard output. If the command line fails, then it should be logged with the error log level; this makes it possible to debug the problem without having to change the log level to debug and rerun the scanning job.
+When executing command lines, scanners should use the debug level to log the command line and its output. For instance,
+the bundler-audit scanner uses the debug level to log the command line bundle audit check --quiet, and what bundle audit writes to the standard output. If the command line fails, then it should be logged with the error log level; this makes it possible to debug the problem without having to change the log level to debug and rerun the scanning job.
 
 common logutil package
+
+If you are using go and common, then it is suggested that you use Logrus and common’s logutil package to configure the formatter for Logrus. See the logutil README
+
+Report
+The report is a JSON document that combines vulnerabilities with possible remediations.
+
+This documentation gives an overview of the report JSON format, as well as recommendations and examples to help integrators set its fields. The format is extensively described in the documentation of SAST, DAST, Dependency Scanning, and Container Scanning.
+
+You can find the schemas for these scanners here:
+
+SAST
+DAST
+Dependency Scanning
+Container Scanning
+Coverage Fuzzing
+Secret Detection
+Version
+
+
