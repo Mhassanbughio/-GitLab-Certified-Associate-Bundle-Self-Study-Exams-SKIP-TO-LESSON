@@ -71,3 +71,15 @@ Policy checking example
 
 Policy checking example
 This example shows how to skip a custom Dependency Scanning job, mysec_dependency_scanning, unless the project repository contains Java source code and the dependency_scanning feature is enabled:
+
+####################################################    code 
+mysec_dependency_scanning:
+  rules:
+    - if: $DEPENDENCY_SCANNING_DISABLED
+      when: never
+    - if: $GITLAB_FEATURES =~ /\bdependency_scanning\b/
+      exists:
+        - '**/*.java'
+        
+        
+        
