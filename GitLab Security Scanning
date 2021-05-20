@@ -159,8 +159,19 @@ Logging
 
 The scanner should log error messages and warnings so that users can easily investigate misconfiguration and integration issues by looking at the log of the CI scanning job.
 
-Scanners may use ANSI escape codes to colorize the messages they write to the Unix standard output and standard error streams. We recommend using red to report errors, yellow for warnings, and green for notices. Also, we recommend prefixing error messages with [ERRO], warnings with [WARN], and notices with [INFO].
+Scanners may use ANSI escape codes to colorize the messages they write to the Unix standard output and standard error streams.
+We recommend using red to report errors, yellow for warnings, and green for notices. Also, we recommend prefixing error messages with [ERRO], warnings with [WARN], and notices with [INFO].
 
 Logging level
 The scanner should filter out a log message if its log level is lower than the one set in the SECURE_LOG_LEVEL CI/CD variable. For instance, 
 info and warn messages should be skipped when SECURE_LOG_LEVEL is set to error. Accepted values are as follows, listed from highest to lowest:
+fatal
+error
+warn
+info
+debug
+It is recommended to use the debug level for verbose logging that could be useful when debugging. The default value for SECURE_LOG_LEVEL should be set to info.
+
+When executing command lines, scanners should use the debug level to log the command line and its output. For instance, the bundler-audit scanner uses the debug level to log the command line bundle audit check --quiet, and what bundle audit writes to the standard output. If the command line fails, then it should be logged with the error log level; this makes it possible to debug the problem without having to change the log level to debug and rerun the scanning job.
+
+common logutil package
