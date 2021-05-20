@@ -224,3 +224,22 @@ To illustrate, here is an example vulnerability object reported by a Dependency 
 As a visual example, this screenshot highlights where these fields are used when viewing a vulnerability as part of a pipeline view.
 
 Example Vulnerability
+
+{
+    "location": {
+        "dependency": {
+            "package": {
+            "name": "debug"
+          }
+        }
+    },
+    "name": "Regular Expression Denial of Service",
+    "message": "Regular Expression Denial of Service in debug",
+    "description": "The debug module is vulnerable to regular expression denial of service
+        when untrusted user input is passed into the `o` formatter.
+        It takes around 50k characters to block for 2 seconds making this a low severity issue."
+}
+
+
+
+
