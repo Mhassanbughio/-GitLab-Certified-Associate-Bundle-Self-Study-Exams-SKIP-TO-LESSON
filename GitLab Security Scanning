@@ -250,4 +250,17 @@ End-users interact with this field, whereas GitLab automatically processes the r
 
 Identifiers
 
+The identifiers array describes the detected vulnerability. An identifier object’s type and value fields are used to tell if two identifiers are the same. The user interface uses the object’s name and url fields to display the identifier.
+
+It is recommended to reuse the identifiers the GitLab scanners already define:
+
+Identifier	Type	Example value
+CVE	cve	CVE-2019-10086
+CWE	cwe	CWE-1026
+OSVD	osvdb	OSVDB-113928
+USN	usn	USN-4234-1
+WASC	wasc	WASC-19
+RHSA	rhsa	RHSA-2020:0111
+ELSA	elsa	ELSA-2020-0085
+
 
