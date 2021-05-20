@@ -21,3 +21,9 @@ For consistency, scanning jobs should be named after the scanner, in lower case.
 and _sast. For instance, the dependency scanning job based on the “MySec” scanner would be named mysec_dependency_scanning.
 
 Image
+
+The image keyword is used to specify the Docker image containing the security scanner.
+
+Script
+The script keyword is used to specify the commands to run the scanner. Because the script entry can’t be left empty, it must be set to the command that performs the scan.
+It is not possible to rely on the predefined ENTRYPOINT and CMD of the Docker image to perform the scan automatically, without passing any command.
