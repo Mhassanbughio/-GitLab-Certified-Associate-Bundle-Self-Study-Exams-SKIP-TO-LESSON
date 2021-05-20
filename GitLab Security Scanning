@@ -55,7 +55,11 @@ mysec_sast:
       sast: gl-sast-report.json
       
       
-      
+Note that gl-sast-report.json is an example file path but any other filename can be used. See the Output file section for more details. It’s processed as a SAST report because it’s declared under the reports:sast key in the job definition, not because of the filename.
+
+Policies
+Certain GitLab workflows, such as AutoDevOps, define CI/CD variables to indicate that given scans should be disabled. You can check for this by looking for variables such as DEPENDENCY_SCANNING_DISABLED, CONTAINER_SCANNING_DISABLED, SAST_DISABLED, and DAST_DISABLED.
+If appropriate based on the scanner type, you should then disable running the custom scanner.
       
       
 
