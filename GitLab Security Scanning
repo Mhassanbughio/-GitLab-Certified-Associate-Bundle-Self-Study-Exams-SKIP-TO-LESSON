@@ -13,3 +13,11 @@ This page documents requirements and guidelines for writing CI jobs that impleme
 
 
 Job definition
+This section describes several important fields to add to the security scanner’s job definition file. 
+Full documentation on these and other available fields can be viewed in the CI documentation.
+
+Name
+For consistency, scanning jobs should be named after the scanner, in lower case. The job name is suffixed after the type of scanning: _dependency_scanning, _container_scanning, _dast, 
+and _sast. For instance, the dependency scanning job based on the “MySec” scanner would be named mysec_dependency_scanning.
+
+Image
