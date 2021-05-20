@@ -47,4 +47,15 @@ Valid reports are: dependency_scanning, container_scanning, dast, api_fuzzing, c
 
 For example, here is the definition of a SAST job that generates a file named gl-sast-report.json, and uploads it as a SAST report:
 
+//////////////////////////////code
+mysec_sast:
+  image: registry.gitlab.com/secure/mysec
+  artifacts:
+    reports:
+      sast: gl-sast-report.json
+      
+      
+      
+      
+      
 
