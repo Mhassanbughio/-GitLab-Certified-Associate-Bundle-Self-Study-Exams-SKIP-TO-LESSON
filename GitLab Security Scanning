@@ -33,6 +33,15 @@ For instance, it is common practice to use before_script to install system libra
 
 Similarly, after_script should not be used in the job definition, because it may be overridden by users.
 
+The artifacts:reports keyword of the job definition must be consistent with the file path where the Security report is written.
+For instance, if a Dependency Scanning analyzer writes its report to the CI project directory, and if this report filename is depscan.json, then artifacts:reports:dependency_scanning must be set to depscan.json.
+
+Exit code
+Following the POSIX exit code standard, the scanner exits with 0 for success and any number from 1 to 255 for anything else.
+Success also includes the case when vulnerabilities are found.
+
+When executing a scanning job using the Docker-in-Docker privileged mode, we reserve the following standard exit codes.
+
 Stage
 
 For consistency, scanning jobs should belong to the test stage when possible. The stage keyword can be omitted because test is the default value.
