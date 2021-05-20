@@ -98,7 +98,10 @@ If possible, it is recommended to build the image from scratch, using the FROM s
 
 To keep an image size small, consider using dive to analyze layers in a Docker image to identify where additional bloat might be originating from.
 
-In some cases, it might be difficult to remove files from an image. When this occurs, consider using Zstandard to compress files or large directories. Zstandard offers many different compression levels that can decrease the size of your image with very little impact to decompression speed. It may be helpful to automatically decompress any compressed directories as soon as an image launches. You can accomplish this by adding a step to the Docker image’s /etc/bashrc or to a specific user’s $HOME/.bashrc. Remember to change the entry point to launch a bash login shell if you chose the latter option.
+In some cases, it might be difficult to remove files from an image. When this occurs, consider using Zstandard to compress files or large directories. Zstandard 
+offers many different compression levels that can decrease the size of your image with very little impact to decompression speed. It may be helpful to 
+automatically decompress any compressed directories as soon as an image launches. You can accomplish this by adding a step to the Docker image’s /etc/bashrc or to a specific user’s $HOME/.bashrc. 
+Remember to change the entry point to launch a bash login shell if you chose the latter option.
 
 Here are some examples to get you started:
 
@@ -106,15 +109,26 @@ https://gitlab.com/gitlab-org/security-products/license-management/-/blob/0b976f
 https://gitlab.com/gitlab-org/security-products/license-management/-/blob/0b976fcffe0a9b8e80587adb076bcdf279c9331c/config/.bashrc#L49
 
 Image tag
-As documented in the Docker Official Images project, it is strongly encouraged that version number tags be given aliases which allows the user to easily refer to the “most recent” release of a particular series. See also Docker Tagging: Best practices for tagging and versioning Docker images.
+As documented in the Docker Official Images project, it is strongly encouraged that version number tags be given aliases which allows 
+the user to easily refer to the “most recent” release of a particular series. See also Docker Tagging: Best practices for tagging and versioning Docker images.
 
 Command line
-A scanner is a command line tool that takes environment variables as inputs, and generates a file that is uploaded as a report (based on the job definition). It also generates text output on the standard output and standard error streams, and exits with a status code.
+A scanner is a command line tool that takes environment variables as inputs, and generates a file that is uploaded as a report (based on the job definition). 
+It also generates text output on the standard output and standard error streams, and exits with a status code.
 
 Variables
 All CI/CD variables are passed to the scanner as environment variables. The scanned project is described by the predefined CI/CD variables.
 
 SAST and Dependency Scanning
+SAST and Dependency Scanning scanners must scan the files in the project directory, given by the CI_PROJECT_DIR CI/CD variable.
+
+Container Scanning
+In order to be consistent with the official Container Scanning for GitLab, scanners must scan the Docker image whose name and tag are given by 
+CI_APPLICATION_REPOSITORY and CI_APPLICATION_TAG, respectively. If the DOCKER_IMAGE CI/CD variable is provided,
+then the CI_APPLICATION_REPOSITORY and CI_APPLICATION_TAG variables are ignored, and the image specified in the DOCKER_IMAGE variable is scanned instead.
+
+If not provided, CI_APPLICATION_REPOSITORY should default to $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG, which is a combination of predefined CI/CD variables. 
+CI_APPLICATION_TAG should default to CI_COMMIT_SHA.
 
 
 
