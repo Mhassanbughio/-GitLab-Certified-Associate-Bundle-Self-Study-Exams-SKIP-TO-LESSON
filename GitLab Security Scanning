@@ -287,3 +287,14 @@ Dependency Scanning
 The location of a Dependency Scanning vulnerability is composed of a dependency and a file. The dependency object describes the affected package and the dependency version. package embeds the name of the affected library/module. file is the path of the dependency file that declares the affected dependency.
 
 For instance, here is the location object for a vulnerability affecting version 4.0.11 of npm package handlebars:
+
+{
+    "file": "client/package.json",
+    "dependency": {
+        "package": {
+            "name": "handlebars"
+        },
+        "version": "4.0.11"
+    }
+}
+
