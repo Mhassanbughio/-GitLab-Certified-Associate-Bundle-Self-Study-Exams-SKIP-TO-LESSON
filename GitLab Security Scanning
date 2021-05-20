@@ -339,3 +339,12 @@ in the generateSecretToken method of the com.gitlab.security_products.tests.App 
     "class": "com.gitlab.security_products.tests.App",
     "method": "generateSecretToken1"
 }
+
+The affected package is found when scanning the Docker image registry.gitlab.com/example/app:latest. The Docker image is based on debian:9 (Debian Stretch).
+
+The location fingerprint of a Container Scanning vulnerability combines the operating_system and the package name, so these attributes are mandatory. 
+The image is also mandatory. All other attributes are optional.
+
+SAST
+The location of a SAST vulnerability must have a file and a start_line field, giving the path of the affected file, a
+nd the affected line number, respectively. It may also have an end_line, a class, and a method.
