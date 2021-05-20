@@ -384,3 +384,7 @@ Valid values are: Ignore, Unknown, Experimental, Low, Medium, High, or Confirmed
 
 Unknown values means that data is unavailable to determine it’s actual value. Therefore, it may be high, medium, or low, and needs to be investigated.
 We have provided a chart of the available SAST Analyzers and what data is currently available.
+Remediations
+The remediations field of the report is an array of remediation objects. Each remediation describes a patch that can be applied to automatically fix a set of vulnerabilities.
+
+Here is an example of a report that contains remediations.
