@@ -167,3 +167,15 @@ View JSON Report   Correct
 Customize SAST Settings Correct
 
 Configure SAST in the UI
+
+Which of the following SAST Analyzers are supported in GitLab?
+
+Gosec Correct
+
+Brakeman  Correct
+
+SpotBugs   Correct
+
+Kubesec    Correct
+
+
