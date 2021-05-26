@@ -15,3 +15,12 @@ On the docs page, scroll down to the Configure SAST manually section.
 Copy the following line:
 include:
   - template: Security/SAST.gitlab-ci.yml
+  
+Navigate back to the Web IDE where you were editing .gitlab-ci.yml.
+Paste the code just copied below the test1 section, leaving a blank line between the blocks of code.
+Ensure the first line of the pasted code is flush-left, and the second line is indented.
+
+Click the blue Commit… button.
+Add a commit message: Add SAST to pipeline
+Click Commit to master branch instead of creating a new branch.
+Click Commit. Now that you have committed this change, the pipeline will run.
