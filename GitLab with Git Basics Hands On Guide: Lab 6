@@ -32,3 +32,10 @@ Click the + icon to the right of the master branch name near the top left of the
 Type main.go in the File name field.
 Copy entire file contents from this snippet and paste them into your empty main.go file.
 Click Commit changes.
+In the left pane, click Pipelines in the CI/CD section. 
+Click the running or passed status label next to the top entry in the list of pipelines. Under the Test stage, you should see the SAST scan running.
+Click the Security tab near the middle of the page. In the Vulnerability column, 
+click on the Errors unhandled vulnerability to learn more about a potential security problem that SAST scanning detected.
+
+
+Suggestions?
