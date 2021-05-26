@@ -201,3 +201,18 @@ You will be able to retake the exam an unlimited amount of times.
    
  ######################################  Exams   ##########################################################################
 
+
+Question
+01/15
+Question01
+Which of the following is NOT needed to run a CI/CD Pipeline in GitLab? 
+
+a GitLab Runner instance 
+
+a project
+
+at least one commit 
+
+wiki
+
+
