@@ -356,4 +356,16 @@ Web IDE
 
 Code Quality
 
+Question
+15/15
+Which of the following is NOT a main component of a .gitlab-ci.yml file?
+
+Answer Stages
+
+Deploy
+
+Build
+
+Push
+
 
