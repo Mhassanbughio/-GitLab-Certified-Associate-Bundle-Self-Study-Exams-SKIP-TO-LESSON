@@ -226,3 +226,17 @@ Question
 What git command would you use to check if a file is being ignored?
 
 Answer   git checkignore
+
+
+Question
+04/15
+If you wanted to start making changes immediately, what would be a single command to create the new branch and switch to it?
+
+0oeUbfzBHdInBw04-illustration_feature-branches.png
+git merge [branch name]
+
+ANSWER git checkout -b [branch-name]
+
+git push [branch name]
+
+git checkout
