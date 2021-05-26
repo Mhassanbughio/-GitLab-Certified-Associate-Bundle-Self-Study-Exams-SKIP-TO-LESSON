@@ -216,3 +216,7 @@ at least one commit
 wiki
 
 
+Question
+02/15
+True/False: a typical CI/CD pipeline might consist of stages called Build, Test, Merge Request, and Code Review. 
+Anwer true
