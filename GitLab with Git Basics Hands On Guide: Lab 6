@@ -27,3 +27,8 @@ Click Commit. Now that you have committed this change, the pipeline will run.
 Next, let's add a file with a known vulnerability and see if SAST detects it.
 
 Add a main.go file and view SAST results
+Navigate away from the Web IDE and back to your project overview page repository by clicking the CI Test project title on the top left of the window.
+Click the + icon to the right of the master branch name near the top left of the window. Under This directory, click New file.
+Type main.go in the File name field.
+Copy entire file contents from this snippet and paste them into your empty main.go file.
+Click Commit changes.
