@@ -275,3 +275,15 @@ Label
 Tag
 
 Answer Branch
+
+Question
+08/15
+What GitLab component is the linkage between the issue and the code changes?
+
+epic
+
+Answer merge request
+
+group
+
+label
