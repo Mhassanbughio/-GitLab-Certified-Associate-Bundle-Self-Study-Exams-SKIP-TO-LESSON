@@ -213,7 +213,7 @@ a project
 
 at least one commit 
 
-wiki
+Answer wiki
 
 
 Question
@@ -336,9 +336,9 @@ Question
 13/15
 What GitLab feature allows you to publish static websites directly from a repository in GitLab?
 
-Answer Feature Flags
+Feature Flags
 
-GitLab Pages
+GitLab Pages Answer
 
 Wiki
 
@@ -360,9 +360,9 @@ Question
 15/15
 Which of the following is NOT a main component of a .gitlab-ci.yml file?
 
-Answer Stages
+Stages
 
-Deploy
+Deploy Answer
 
 Build
 
