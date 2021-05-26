@@ -220,3 +220,9 @@ Question
 02/15
 True/False: a typical CI/CD pipeline might consist of stages called Build, Test, Merge Request, and Code Review. 
 Anwer true
+
+Question
+03/15
+What git command would you use to check if a file is being ignored?
+
+Answer   git checkignore
