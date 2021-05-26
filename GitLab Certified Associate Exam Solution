@@ -312,3 +312,14 @@ Better Security
 Anyone can submit code to add features 
 
 Answer All of the Above
+
+
+Question
+11/15
+True/False: All changes to README.md will be permanently discarded from the working directory
+using the command “git checkout -- README.md”
+
+True
+
+False Answer
+
