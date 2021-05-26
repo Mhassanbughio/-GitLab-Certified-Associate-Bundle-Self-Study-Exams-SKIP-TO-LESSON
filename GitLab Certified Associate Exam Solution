@@ -183,3 +183,7 @@ True/False: GitLab SAST supports docker in docker.
 
 True  Correctly unselected
 False  Correctly selected
+
+########################## NOTE ##############
+You have reached the end of the self-study sections. Continue on to the certification assessment section, 
+which you must successfully complete to earn your GitLab Certified Associate badge.
