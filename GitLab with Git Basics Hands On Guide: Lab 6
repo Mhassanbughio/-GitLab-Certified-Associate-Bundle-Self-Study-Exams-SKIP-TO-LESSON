@@ -1,3 +1,9 @@
 GitLab with Git Basics Hands On Guide: Lab 6
 
 LAB 6: Static Application Security Testing (SAST)
+SAST, an optional feature of CI/CD pipelines, analyzes your source code for known vulnerabilities. On every commit to a SAST-enabled project, 
+GitLab checks the SAST report and compares the found vulnerabilities between the source and target branches.
+
+The purpose of this lab is to use SAST to identify potential security vulnerabilities in your code.
+
+Navigate to the CI Test Project
