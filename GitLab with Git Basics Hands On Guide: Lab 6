@@ -24,3 +24,6 @@ Click the blue Commit… button.
 Add a commit message: Add SAST to pipeline
 Click Commit to master branch instead of creating a new branch.
 Click Commit. Now that you have committed this change, the pipeline will run.
+Next, let's add a file with a known vulnerability and see if SAST detects it.
+
+Add a main.go file and view SAST results
