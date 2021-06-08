@@ -14,6 +14,8 @@ In the title field, type new issue. Optionally, enter a comment in the Descripti
 In the Assignees field, click the link for Assign to me.
 Click the Submit issue button to create the issue.
 
+############################################################################################################################
+
 Create a merge request
 
 Just above the comment box, click the dropdown arrow next to the green Create merge request button. 
@@ -29,6 +31,7 @@ On line 3 of the file, type Edit my README.md file.
 Click the blue Commit… button at the bottom of the screen.
 In the commit message box, type Updated the README.md file. Leave the radio box button at the default, so the commit will be on the branch you created earlier. Click Commit.
 
+#############################################################################################################################
 
 Verify Changes in a Merge Request
 
@@ -40,6 +43,8 @@ Click the Changes tab directly below the merge request title.
 Hover over the left side of any line, and a comment icon will appear. Hover over line 3 and click the comment icon.
 In the comment field, type this code will fix this! and click the Start a review button. Click Submit review to add your comment.
 To mark that the comment has been seen and the commit has been adjusted, close the review by clicking Resolve thread.
+
+#############################################################################################################################
 
 Approve the merge request
 To mark the merge request ready to merge, click Mark as ready in the upper right-hand corner.
