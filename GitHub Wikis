@@ -149,6 +149,7 @@ Group wikis are not included in global search.
 Changes to group wikis don’t show up in the group’s activity feed.
 For updates, follow the epic that tracks feature parity with project wikis.
 
+###########################################################################################################################
 Group wikis can be edited by members with Developer permissions and above. Group wiki repositories can be moved using the Group repository storage moves API.
 
 Link an external wiki
