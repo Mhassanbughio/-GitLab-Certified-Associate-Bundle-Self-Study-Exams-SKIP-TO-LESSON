@@ -1,4 +1,5 @@
 Wiki
+
 If you don’t want to keep your documentation in your repository, but you do want to keep it in the same project as your code, you can use the wiki GitLab provides in each GitLab project. Every wiki is a separate Git repository, so you can create wiki pages in the web interface, or locally using Git.
 
 To access the wiki for a project or group, go to the page for your project or group and, in the left sidebar, select Wiki. If Wiki is not listed in the left sidebar, a project administrator has disabled it.
@@ -18,6 +19,7 @@ Add a Commit message. Git requires a commit message, so GitLab creates one if yo
 Select Create page.
 Create a new wiki page
 
+############################################################################################################################
 
 Create a new wiki page
 Users with Developer permissions can create new wiki pages:
@@ -35,7 +37,8 @@ Add a Commit message. Git requires a commit message, so GitLab creates one if yo
 Select Create page.
 Create or edit wiki pages locally
 
-Wikis are based on Git repositories, so you can clone them locally and edit them like you would do with every other Git repository. To clone a wiki repository locally, select Clone repository from the right-hand sidebar of any wiki page, and follow the on-screen instructions.
+Wikis are based on Git repositories, so you can clone them locally and edit them like you would do with every other Git repository. 
+To clone a wiki repository locally, select Clone repository from the right-hand sidebar of any wiki page, and follow the on-screen instructions.
 
 Files you add to your wiki locally must use one of the following supported extensions, depending on the markup language you wish to use. Files with unsupported extensions don’t display when pushed to GitLab:
 
