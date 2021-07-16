@@ -7,7 +7,7 @@ Q1 Which GitLab branching option deals with minor versions?
 3 None of the Above
 Corect Answer Environment Branches
 
-###############################################################
+##############################################################################
 Q2 What GitLab component refers to a collection of projects?
 
 A group 
@@ -16,7 +16,7 @@ An epic
 
 A page 
 Correct Answer A group
-###############################################################
+###############################################################################
 Q3 What GitLab component may be known as a pull request?
 
 A commit
@@ -26,7 +26,7 @@ An issue
 A merge request
 Correct Answer A merge Request 
 
-############################## GitLab Components and Navigation ###############################
+######################## GitLab Components and Navigation######################
 
 
 What is the starting point of the GitLab Recommended Flow?
@@ -50,7 +50,7 @@ Internal
 
 Correct Correct
 
-#################################################################################################################
+###############################################################################
 True/False: Multi-level epics are available to all GitLab tiers. 
 
 True     
@@ -85,7 +85,9 @@ ls
 cd
 
 list
-Correct What command is used to list what is in the current directory? 
+Correct 
+##############################################################################
+What command is used to list what is in the current directory? 
 
 ls
 
@@ -138,9 +140,11 @@ True/False: Auto-devops is only available in Python.
 
 True
 
-False  ////////correct
+False  
+correct false
 
-Which of the following GitLab products allows developers to communicate testing issues with each other before the code is released?
+Which of the following GitLab products allows developers to communicate testing 
+issues with each other before the code is released?
 
 Pages
 
