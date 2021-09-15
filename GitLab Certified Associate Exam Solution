@@ -197,6 +197,7 @@ SpotBugs   Correct
 
 Kubesec    Correct
 
+##############################################################################
 
 True/False: GitLab SAST supports docker in docker.     
 
