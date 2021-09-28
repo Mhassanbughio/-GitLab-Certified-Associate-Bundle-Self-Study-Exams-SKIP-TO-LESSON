@@ -186,7 +186,7 @@ Customize SAST Settings Correct
 
 Configure SAST in the UI
 
-##############################################################################################################
+################################################################################
 Which of the following SAST Analyzers are supported in GitLab?
 
 Gosec Correct
@@ -219,7 +219,7 @@ The following exam validates your comprehension of key concepts, processes, and 
 Git and GitLab. You must receive a passing score of 100%.
 You will be able to retake the exam an unlimited amount of times.
    
- ######################################  Exams   ##########################################################################
+ ######################################  Exams   ###############################################################
 
 
 Question
@@ -289,6 +289,9 @@ Centralized
 Single Source
 
 None of the Above
+
+##############################################################################
+
 
 Question
 07/15
